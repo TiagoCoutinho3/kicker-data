@@ -410,7 +410,9 @@ def detect_name_pattern(name: str) -> str | None:
         "mainoo", "saka", "eze", "olise", "balogun", "tomori", "chalobah", 
         "adarabioyo", "madueke", "akinfenwa", "iheanacho", "onyeka", "aribo", 
         "ekitike", "disasi", "kalulu", "kolo muani", "sangante", "agbadou", 
-        "konsa", "guehi"
+        "konsa", "guehi", "balogun", "sarr", "camavinga", "rüdiger", "tah", "maignan", 
+        "thuram", "mateta", "lukaku", "doku" , "onana", "lukebakio", "brobbey",
+        "gravenberch", "dumfries", "isak", "sumerville", "elanga", "aké", "rashford"
     }
     
     for ss_name in sub_saharan_names:
@@ -476,7 +478,7 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         "guinea-bissau", "gambia", "the gambia", "niger", "chad", "central african republic", "south sudan", 
         "eritrea", "ethiopia", "somalia", "rwanda", "burundi", "tanzania", "malawi", "mozambique", 
         "namibia", "botswana", "lesotho", "eswatini", "madagascar", "mauritius", "seychelles", 
-        "comoros", "equatorial guinea", "sao tome and principe"
+        "comoros", "equatorial guinea", "sao tome and principe", "ecuador"
     }
     
     north_africa = {"morocco", "algeria", "tunisia", "egypt", "libya", "sudan", "mauritania"}
@@ -539,35 +541,35 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18"])
         
     elif country_lower in sub_saharan_africa:
-        skin_color = rng.choice(["6f4f1d", "4a3728", "3c2e25", "2d1d16"])
+        skin_color = rng.choice(["6f4f1d", "4a3728", "3c2e25", "c68642", "b87333", "a1662f", "8d5524"])
         if is_winger_or_am:
             expression = rng.choice(["smileTeethGap", "smileBig"])
         else:
-            expression = rng.choice(["blank", "concerned", "explaining", "driven"])
+            expression = rng.choice(["blank", "concerned", "explaining", "hectic"])
         head = rng.choice(["short1", "short2"])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18"])
         
     elif country_lower in north_africa:
         skin_color = rng.choice(["d2b48c", "c68642", "ae703b", "8d5524"])
         expression = rng.choice(["blank", "concerned", "suspicious", "cheeky", "contempt"])
-        head = rng.choice(["short1", "short2", "flatTop", "shaved2", "short4"])
+        head = rng.choice(["short1", "short2", "flatTop", "shaved2", "short4", "twists"])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18", "4a3728"])
         
     elif country_lower in group_4_countries:
         skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
-        expression = rng.choice(["blank", "cheeky", "contempt", "explaining"])
+        expression = rng.choice(["blank", "cheeky", "contempt", "explaining", "smileBig", "fear"])
         head = rng.choice(["short1", "short2", "short4", "short5", "grayShort"])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18"])
         
     elif country_lower in ["portugal", "spain"]:
         skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
-        expression = rng.choice(["blank", "cheeky", "contempt", "explaining"])
+        expression = rng.choice(["blank", "cheeky", "contempt", "explaining", "hectic"])
         head = rng.choice(["short1", "short2", "short4", "short5", "grayShort"])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18"])
         
     elif country_lower in nordic_leste:
         skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
-        expression_chosen = rng.choice(["blank", "cheeky", "contempt", "explaining"])
+        expression_chosen = rng.choice(["blank", "cheeky", "contempt", "explaining", "hectic"])
         head_chosen = rng.choice(["short1", "short2", "short4", "short5", "grayShort", "smile"])
         if head_chosen == "smile":
             head = "short1"
