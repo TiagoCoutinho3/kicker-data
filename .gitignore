@@ -1,0 +1,9 @@
+# Pastas de dados
+clean/
+raw/
+*.csv
+
+# Banco de dados
+*.db
+*.db-shm
+*.db-wal
