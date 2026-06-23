@@ -330,6 +330,48 @@ def get_clothing_color_from_url(url: str) -> str | None:
     return None
 
 
+def extract_visual_params_from_url(url: str) -> dict[str, str]:
+    """Extract all visual parameters from a DiceBear URL."""
+    params = {
+        "skin_color": None,
+        "hair_color": None,
+        "head_variant": None,
+        "expression_variant": None,
+        "clothing_color": None,
+        "facial_hair_probability": None,
+        "facial_hair_variant": None
+    }
+    
+    if "?" not in url:
+        return params
+    
+    _, query_string = url.split("?", 1)
+    url_params = urllib.parse.parse_qs(query_string)
+    
+    if "skinColor" in url_params and url_params["skinColor"]:
+        params["skin_color"] = url_params["skinColor"][0].lstrip("#")
+    
+    if "headContrastColor" in url_params and url_params["headContrastColor"]:
+        params["hair_color"] = url_params["headContrastColor"][0].lstrip("#")
+    
+    if "headVariant" in url_params and url_params["headVariant"]:
+        params["head_variant"] = url_params["headVariant"][0]
+    
+    if "expressionVariant" in url_params and url_params["expressionVariant"]:
+        params["expression_variant"] = url_params["expressionVariant"][0]
+    
+    if "clothingColor" in url_params and url_params["clothingColor"]:
+        params["clothing_color"] = url_params["clothingColor"][0].lstrip("#")
+    
+    if "facialHairProbability" in url_params and url_params["facialHairProbability"]:
+        params["facial_hair_probability"] = url_params["facialHairProbability"][0]
+    
+    if "facialHairVariant" in url_params and url_params["facialHairVariant"]:
+        params["facial_hair_variant"] = url_params["facialHairVariant"][0]
+    
+    return params
+
+
 def detect_name_pattern(name: str) -> str | None:
     """Detect name pattern to determine avatar region based on player name."""
     if not name:
@@ -456,7 +498,7 @@ def detect_name_pattern(name: str) -> str | None:
     return None
 
 
-def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_position: str, club: str | None = None, club_colors: dict | None = None) -> str:
+def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_position: str, club: str | None = None, club_colors: dict | None = None) -> tuple[str, dict[str, str]]:
     rng = random.Random(player_id)
     
     country_lower = str(country).lower().strip() if pd.notna(country) else ""
@@ -602,6 +644,17 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
             color_name = club_data["Principal"]
             clothing_color = get_color_hex(color_name)
     
+    # Build visual params dict
+    visual_params = {
+        "skin_color": skin_color,
+        "hair_color": hair_color,
+        "head_variant": head,
+        "expression_variant": expression,
+        "clothing_color": clothing_color.lstrip("#"),
+        "facial_hair_probability": "0",
+        "facial_hair_variant": "none"
+    }
+    
     encoded_params = urllib.parse.urlencode({
         "seed": str(player_id),
         "skinColor": f"#{skin_color}",
@@ -609,12 +662,12 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         "headVariant": head,
         "expressionVariant": expression,
         "clothingColor": clothing_color,
-        "accessoriesProbability": "0",
-        "maskProbability": "0",
-        "facialHairProbability": "0"
+        "facialHairProbability": "0",
+        "facialHairVariant": "none"
     })
     
-    return f"https://api.dicebear.com/10.x/open-peeps/svg?{encoded_params}"
+    url = f"https://api.dicebear.com/10.x/open-peeps/svg?{encoded_params}"
+    return url, visual_params
 
 
 def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame:
@@ -631,6 +684,15 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
     manual_preserved = 0
     new_image_urls = []
     is_manual_flags = []
+    
+    # Visual columns
+    skin_colors = []
+    hair_colors = []
+    head_variants = []
+    expression_variants = []
+    clothing_colors = []
+    facial_hair_probs = []
+    facial_hair_variants = []
 
     log("Gerando/atualizando avatares para todos os jogadores...")
     for _, row in players.iterrows():
@@ -642,6 +704,9 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
         
         if saved_data:
             saved_url, is_manual = saved_data
+            
+            # Extract visual params from saved URL
+            visual_params = extract_visual_params_from_url(saved_url)
             
             # Manual avatars: update clothing color but preserve everything else
             if is_manual:
@@ -656,12 +721,29 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
                             updated_url = update_clothing_color_in_url(saved_url, new_clothing_color)
                             new_image_urls.append(updated_url)
                             is_manual_flags.append(1)
+                            visual_params["clothing_color"] = new_clothing_color.lstrip("#")
                             manual_preserved += 1
+                            # Append visual params
+                            skin_colors.append(visual_params["skin_color"])
+                            hair_colors.append(visual_params["hair_color"])
+                            head_variants.append(visual_params["head_variant"])
+                            expression_variants.append(visual_params["expression_variant"])
+                            clothing_colors.append(visual_params["clothing_color"])
+                            facial_hair_probs.append(visual_params["facial_hair_probability"])
+                            facial_hair_variants.append(visual_params["facial_hair_variant"])
                             continue
                 
                 new_image_urls.append(saved_url)
                 is_manual_flags.append(1)
                 manual_preserved += 1
+                # Append visual params
+                skin_colors.append(visual_params["skin_color"])
+                hair_colors.append(visual_params["hair_color"])
+                head_variants.append(visual_params["head_variant"])
+                expression_variants.append(visual_params["expression_variant"])
+                clothing_colors.append(visual_params["clothing_color"])
+                facial_hair_probs.append(visual_params["facial_hair_probability"])
+                facial_hair_variants.append(visual_params["facial_hair_variant"])
                 continue
             
             # Auto avatars: update clothing color if club changed
@@ -677,15 +759,32 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
                             updated_url = update_clothing_color_in_url(saved_url, new_clothing_color)
                             new_image_urls.append(updated_url)
                             is_manual_flags.append(0)
+                            visual_params["clothing_color"] = new_clothing_color.lstrip("#")
                             avatar_updates += 1
+                            # Append visual params
+                            skin_colors.append(visual_params["skin_color"])
+                            hair_colors.append(visual_params["hair_color"])
+                            head_variants.append(visual_params["head_variant"])
+                            expression_variants.append(visual_params["expression_variant"])
+                            clothing_colors.append(visual_params["clothing_color"])
+                            facial_hair_probs.append(visual_params["facial_hair_probability"])
+                            facial_hair_variants.append(visual_params["facial_hair_variant"])
                             continue
             
             new_image_urls.append(saved_url)
             is_manual_flags.append(0)
             avatar_preserved += 1
+            # Append visual params
+            skin_colors.append(visual_params["skin_color"])
+            hair_colors.append(visual_params["hair_color"])
+            head_variants.append(visual_params["head_variant"])
+            expression_variants.append(visual_params["expression_variant"])
+            clothing_colors.append(visual_params["clothing_color"])
+            facial_hair_probs.append(visual_params["facial_hair_probability"])
+            facial_hair_variants.append(visual_params["facial_hair_variant"])
         else:
             # Generate new avatar
-            avatar_url = get_avatar_url(
+            avatar_url, visual_params = get_avatar_url(
                 player_id=pid,
                 name=player_name,
                 country=row["country_of_citizenship"],
@@ -698,9 +797,24 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
             new_image_urls.append(avatar_url)
             is_manual_flags.append(0)
             avatar_updates += 1
+            # Append visual params
+            skin_colors.append(visual_params["skin_color"])
+            hair_colors.append(visual_params["hair_color"])
+            head_variants.append(visual_params["head_variant"])
+            expression_variants.append(visual_params["expression_variant"])
+            clothing_colors.append(visual_params["clothing_color"])
+            facial_hair_probs.append(visual_params["facial_hair_probability"])
+            facial_hair_variants.append(visual_params["facial_hair_variant"])
 
     players["image_url"] = new_image_urls
     players["is_manual"] = is_manual_flags
+    players["skin_color"] = skin_colors
+    players["hair_color"] = hair_colors
+    players["head_variant"] = head_variants
+    players["expression_variant"] = expression_variants
+    players["clothing_color"] = clothing_colors
+    players["facial_hair_probability"] = facial_hair_probs
+    players["facial_hair_variant"] = facial_hair_variants
     
     log(f"Concluido. Avatares gerados/atualizados: {avatar_updates:,} | Preservados: {avatar_preserved:,} | Manuais preservados: {manual_preserved:,}")
     
