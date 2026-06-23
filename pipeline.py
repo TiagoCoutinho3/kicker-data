@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import json
 import random
-import shutil
 import sqlite3
 import sys
 import urllib.parse
@@ -17,7 +16,6 @@ RAW_DIR = Path("raw")
 CLEAN_DIR = Path("clean")
 DB_PATH = CLEAN_DIR / "football.db"
 CLUB_COLORS_FILE = Path("club_colors.json")
-AVATAR_STATE_FILE = Path("players_avatar_state.json")
 
 # Constants from process.py
 BIG_COMPETITIONS = {"CL", "EL", "WC", "EC", "CLI", "WCWC", "FIWC", "EURO"}
@@ -83,13 +81,6 @@ def resolve_competition_ids(competition_ids: set[str]) -> set[str]:
     return resolved
 
 
-def copy_reference(name: str, stats: dict) -> None:
-    src = RAW_DIR / name
-    dst = CLEAN_DIR / name
-    log(f"Copiando {name}...")
-    shutil.copy2(src, dst)
-    row_count = sum(1 for _ in src.open("r", encoding="utf-8")) - 1
-    stats[name] = (row_count, row_count)
 
 
 def build_valid_player_ids(games: pd.DataFrame) -> set[int]:
@@ -146,9 +137,6 @@ def process_raw_data() -> dict:
     CLEAN_DIR.mkdir(exist_ok=True)
     stats: dict[str, tuple[int, int]] = {}
 
-    # Copy reference files
-    for name in REFERENCE_FILES:
-        copy_reference(name, stats)
 
     # Load games
     log("Carregando games.csv...")
@@ -265,25 +253,16 @@ def load_club_colors() -> dict:
         return json.load(f)
 
 
-def load_avatar_state() -> dict:
-    """Load avatar state from JSON file."""
-    if not AVATAR_STATE_FILE.exists():
-        return {"avatars": {}, "overrides": {}}
-    with open(AVATAR_STATE_FILE, "r", encoding="utf-8") as f:
-        state = json.load(f)
-    
-    # Convert old format (just URL) to new format (with name)
-    for pid, data in state["avatars"].items():
-        if isinstance(data, str):
-            state["avatars"][pid] = {"name": "", "url": data}
-    
-    return state
-
-
-def save_avatar_state(state: dict) -> None:
-    """Save avatar state to JSON file."""
-    with open(AVATAR_STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump(state, f, ensure_ascii=False, indent=2)
+def load_existing_avatars_from_db() -> dict[int, str]:
+    """Load existing image URLs from football.db."""
+    if not DB_PATH.exists():
+        return {}
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        rows = conn.execute("SELECT player_id, image_url FROM players WHERE image_url IS NOT NULL").fetchall()
+        return {pid: url for pid, url in rows}
+    finally:
+        conn.close()
 
 
 def get_color_hex(color_name: str) -> str:
@@ -535,13 +514,13 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
     hair_color = "000000"
     
     if country_lower in asia_countries:
-        skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
+        skin_color = rng.choice(["ffdbb4", "fd9841", "edb98a", "f2c18d"])
         expression = "cute"
         head = rng.choices(["flatTop", "grayShort", "short5", "short2"], weights=[10, 30, 30, 30])[0]
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18"])
         
     elif country_lower in sub_saharan_africa:
-        skin_color = rng.choice(["6f4f1d", "4a3728", "3c2e25", "c68642", "b87333", "a1662f", "8d5524"])
+        skin_color = rng.choice(["6f4f1d", "4a3728", "3c2e25", "a1662f", "8d5524"])
         if is_winger_or_am:
             expression = rng.choice(["smileTeethGap", "smileBig"])
         else:
@@ -557,19 +536,19 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         
     elif country_lower in group_4_countries:
         skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
-        expression = rng.choice(["blank", "cheeky", "contempt", "explaining", "smileBig", "fear"])
+        expression = rng.choice(["blank", "cheeky", "contempt", "explaining", "tired", "fear", "suspicious"])
         head = rng.choice(["short1", "short2", "short4", "short5", "grayShort"])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18"])
         
     elif country_lower in ["portugal", "spain"]:
         skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
-        expression = rng.choice(["blank", "cheeky", "contempt", "explaining", "hectic"])
+        expression = rng.choice(["blank", "cheeky", "contempt", "explaining", "hectic", "suspicious"])
         head = rng.choice(["short1", "short2", "short4", "short5", "grayShort"])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18"])
         
     elif country_lower in nordic_leste:
         skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
-        expression_chosen = rng.choice(["blank", "cheeky", "contempt", "explaining", "hectic"])
+        expression_chosen = rng.choice(["blank", "cheeky", "contempt", "explaining", "hectic", "tired"])
         head_chosen = rng.choice(["short1", "short2", "short4", "short5", "grayShort", "smile"])
         if head_chosen == "smile":
             head = "short1"
@@ -580,8 +559,8 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         hair_color = rng.choice(["fbe7a1", "f3e5ab", "e6c229", "d4af37"])
         
     elif country_lower in latin_america:
-        skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
-        expression = rng.choice(["smileBig", "smileTeethGap", "explaining"])
+        skin_color = rng.choice(["fd9841", "edb98a", "f2c18d", "c68642"])
+        expression = rng.choice(["smileBig", "smileTeethGap", "explaining", "cheeky", "smile"])
         head = rng.choice(["short1", "short2", "shaved2", "short4"])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18", "3d2314"])
         
@@ -619,25 +598,23 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
     log(f"Carregando {CLUB_COLORS_FILE}...")
     club_colors = load_club_colors()
     
-    log(f"Carregando {AVATAR_STATE_FILE}...")
-    avatar_state = load_avatar_state()
+    log("Carregando avatares existentes do football.db...")
+    existing_avatars = load_existing_avatars_from_db()
+    log(f"  Encontrados {len(existing_avatars):,} avatares existentes")
 
     avatar_updates = 0
     avatar_preserved = 0
     new_image_urls = []
-    updated_state = {"avatars": {}, "overrides": avatar_state.get("overrides", {})}
 
-    log("Gerando avatares para todos os jogadores...")
+    log("Gerando/atualizando avatares para todos os jogadores...")
     for _, row in players.iterrows():
-        pid = str(row["player_id"])
+        pid = int(row["player_id"])
         player_name = row["name"]
         current_club = row["current_club_name"] if pd.notna(row["current_club_name"]) else None
         
-        saved_data = avatar_state["avatars"].get(pid)
-        saved_url = saved_data["url"] if saved_data and isinstance(saved_data, dict) else saved_data if saved_data else None
-        has_override = pid in avatar_state["overrides"]
+        saved_url = existing_avatars.get(pid)
         
-        if saved_url and not force and not has_override:
+        if saved_url and not force:
             if current_club and current_club in club_colors:
                 club_data = club_colors[current_club]
                 if "Principal" in club_data:
@@ -645,16 +622,14 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
                     new_clothing_color = get_color_hex(color_name)
                     updated_url = update_clothing_color_in_url(saved_url, new_clothing_color)
                     new_image_urls.append(updated_url)
-                    updated_state["avatars"][pid] = {"name": player_name, "url": updated_url}
                     avatar_updates += 1
                     continue
             
             new_image_urls.append(saved_url)
-            updated_state["avatars"][pid] = {"name": player_name, "url": saved_url}
             avatar_preserved += 1
         else:
             avatar_url = get_avatar_url(
-                player_id=int(pid),
+                player_id=pid,
                 name=player_name,
                 country=row["country_of_citizenship"],
                 position=row["position"],
@@ -663,19 +638,10 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
                 club_colors=club_colors
             )
             
-            if has_override:
-                override = avatar_state["overrides"][pid]
-                for param, value in override.items():
-                    avatar_url = update_clothing_color_in_url(avatar_url, value) if param == "clothingColor" else avatar_url
-            
             new_image_urls.append(avatar_url)
-            updated_state["avatars"][pid] = {"name": player_name, "url": avatar_url}
             avatar_updates += 1
 
     players["image_url"] = new_image_urls
-    
-    log(f"Salvando {AVATAR_STATE_FILE}...")
-    save_avatar_state(updated_state)
     
     log(f"Concluido. Avatares gerados/atualizados: {avatar_updates:,} | Preservados: {avatar_preserved:,}")
     
@@ -705,9 +671,9 @@ def import_dataframe_to_sql(conn: sqlite3.Connection, df: pd.DataFrame, table: s
 
 
 def import_reference_files(conn: sqlite3.Connection) -> None:
-    """Import reference CSV files to database."""
+    """Import reference CSV files to database directly from raw/ directory."""
     for csv_name, table in TABLES[:4]:  # First 4 are reference files
-        csv_path = CLEAN_DIR / csv_name
+        csv_path = RAW_DIR / csv_name
         log(f"Importando {csv_name} -> {table}...")
         df = pd.read_csv(csv_path)
         import_dataframe_to_sql(conn, df, table)
