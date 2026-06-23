@@ -253,14 +253,24 @@ def load_club_colors() -> dict:
         return json.load(f)
 
 
-def load_existing_avatars_from_db() -> dict[int, str]:
-    """Load existing image URLs from football.db."""
+def load_existing_avatars_from_db() -> dict[int, tuple[str, bool]]:
+    """Load existing image URLs and manual status from football.db."""
     if not DB_PATH.exists():
         return {}
     conn = sqlite3.connect(DB_PATH)
     try:
-        rows = conn.execute("SELECT player_id, image_url FROM players WHERE image_url IS NOT NULL").fetchall()
-        return {pid: url for pid, url in rows}
+        # Check if is_manual column exists
+        has_manual_column = conn.execute(
+            "PRAGMA table_info(players)"
+        ).fetchall()
+        has_manual = any(col[1] == 'is_manual' for col in has_manual_column)
+        
+        if has_manual:
+            rows = conn.execute("SELECT player_id, image_url, is_manual FROM players WHERE image_url IS NOT NULL").fetchall()
+            return {pid: (url, bool(manual)) for pid, url, manual in rows}
+        else:
+            rows = conn.execute("SELECT player_id, image_url FROM players WHERE image_url IS NOT NULL").fetchall()
+            return {pid: (url, False) for pid, url in rows}
     finally:
         conn.close()
 
@@ -304,6 +314,20 @@ def update_clothing_color_in_url(url: str, new_clothing_color: str) -> str:
     
     new_query = urllib.parse.urlencode(params, doseq=True)
     return f"{base_url}?{new_query}"
+
+
+def get_clothing_color_from_url(url: str) -> str | None:
+    """Extract the current clothingColor parameter from a DiceBear URL."""
+    if "?" not in url:
+        return None
+    
+    _, query_string = url.split("?", 1)
+    params = urllib.parse.parse_qs(query_string)
+    
+    if "clothingColor" in params and params["clothingColor"]:
+        return params["clothingColor"][0]
+    
+    return None
 
 
 def detect_name_pattern(name: str) -> str | None:
@@ -604,7 +628,9 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
 
     avatar_updates = 0
     avatar_preserved = 0
+    manual_preserved = 0
     new_image_urls = []
+    is_manual_flags = []
 
     log("Gerando/atualizando avatares para todos os jogadores...")
     for _, row in players.iterrows():
@@ -612,22 +638,53 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
         player_name = row["name"]
         current_club = row["current_club_name"] if pd.notna(row["current_club_name"]) else None
         
-        saved_url = existing_avatars.get(pid)
+        saved_data = existing_avatars.get(pid)
         
-        if saved_url and not force:
-            if current_club and current_club in club_colors:
-                club_data = club_colors[current_club]
-                if "Principal" in club_data:
-                    color_name = club_data["Principal"]
-                    new_clothing_color = get_color_hex(color_name)
-                    updated_url = update_clothing_color_in_url(saved_url, new_clothing_color)
-                    new_image_urls.append(updated_url)
-                    avatar_updates += 1
-                    continue
+        if saved_data:
+            saved_url, is_manual = saved_data
+            
+            # Manual avatars: update clothing color but preserve everything else
+            if is_manual:
+                if current_club and current_club in club_colors:
+                    club_data = club_colors[current_club]
+                    if "Principal" in club_data:
+                        color_name = club_data["Principal"]
+                        new_clothing_color = get_color_hex(color_name)
+                        current_color = get_clothing_color_from_url(saved_url)
+                        # Only update if color actually changed
+                        if current_color != new_clothing_color:
+                            updated_url = update_clothing_color_in_url(saved_url, new_clothing_color)
+                            new_image_urls.append(updated_url)
+                            is_manual_flags.append(1)
+                            manual_preserved += 1
+                            continue
+                
+                new_image_urls.append(saved_url)
+                is_manual_flags.append(1)
+                manual_preserved += 1
+                continue
+            
+            # Auto avatars: update clothing color if club changed
+            if not force:
+                if current_club and current_club in club_colors:
+                    club_data = club_colors[current_club]
+                    if "Principal" in club_data:
+                        color_name = club_data["Principal"]
+                        new_clothing_color = get_color_hex(color_name)
+                        current_color = get_clothing_color_from_url(saved_url)
+                        # Only update if color actually changed
+                        if current_color != new_clothing_color:
+                            updated_url = update_clothing_color_in_url(saved_url, new_clothing_color)
+                            new_image_urls.append(updated_url)
+                            is_manual_flags.append(0)
+                            avatar_updates += 1
+                            continue
             
             new_image_urls.append(saved_url)
+            is_manual_flags.append(0)
             avatar_preserved += 1
         else:
+            # Generate new avatar
             avatar_url = get_avatar_url(
                 player_id=pid,
                 name=player_name,
@@ -639,11 +696,13 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
             )
             
             new_image_urls.append(avatar_url)
+            is_manual_flags.append(0)
             avatar_updates += 1
 
     players["image_url"] = new_image_urls
+    players["is_manual"] = is_manual_flags
     
-    log(f"Concluido. Avatares gerados/atualizados: {avatar_updates:,} | Preservados: {avatar_preserved:,}")
+    log(f"Concluido. Avatares gerados/atualizados: {avatar_updates:,} | Preservados: {avatar_preserved:,} | Manuais preservados: {manual_preserved:,}")
     
     return players
 
@@ -706,16 +765,8 @@ def print_db_summary(conn: sqlite3.Connection) -> None:
 
 def import_to_database(dataframes: dict) -> None:
     """Import all data to SQLite database."""
-    # Preserve manually modified avatars before deleting DB
-    manual_avatars = {}
+    # No need to preserve avatars - they are handled in generate_avatars
     if DB_PATH.exists():
-        conn = sqlite3.connect(DB_PATH)
-        try:
-            rows = conn.execute("SELECT player_id, image_url FROM players WHERE image_url IS NOT NULL").fetchall()
-            manual_avatars = {pid: url for pid, url in rows}
-            log(f"Preservando {len(manual_avatars):,} avatares do banco existente...")
-        finally:
-            conn.close()
         DB_PATH.unlink()
         log(f"Removido {DB_PATH} anterior.")
 
@@ -732,14 +783,6 @@ def import_to_database(dataframes: dict) -> None:
         for table_name, df in dataframes.items():
             log(f"Importando {table_name} -> {table_name}...")
             import_dataframe_to_sql(conn, df, table_name)
-
-        # Restore manually modified avatars if any
-        if manual_avatars:
-            log("Restaurando avatares manuais...")
-            for pid, url in manual_avatars.items():
-                conn.execute("UPDATE players SET image_url = ? WHERE player_id = ?", (url, pid))
-            restored = conn.execute("SELECT COUNT(*) FROM players WHERE image_url IS NOT NULL").fetchone()[0]
-            log(f"  {restored:,} avatares restaurados")
 
         log("Criando indices...")
         create_indexes(conn)
