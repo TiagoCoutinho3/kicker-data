@@ -372,17 +372,21 @@ def extract_visual_params_from_url(url: str) -> dict[str, str]:
     return params
 
 
-def clean_url_params(url: str) -> str:
-    """Remove unused parameters (accessoriesProbability, maskProbability) from DiceBear URL."""
+def ensure_url_params(url: str) -> str:
+    """Ensure required parameters (accessoriesProbability, maskProbability) exist and are set to 0."""
     if "?" not in url:
         return url
     
     base_url, query_string = url.split("?", 1)
     params = urllib.parse.parse_qs(query_string)
     
-    # Remove unused parameters
-    params.pop("accessoriesProbability", None)
-    params.pop("maskProbability", None)
+    # Ensure required parameters exist and are set to 0
+    params["accessoriesProbability"] = ["0"]
+    params["maskProbability"] = ["0"]
+    
+    # Ensure facialHairVariant exists (set to none if missing)
+    if "facialHairVariant" not in params or not params["facialHairVariant"]:
+        params["facialHairVariant"] = ["none"]
     
     # Rebuild query string
     new_query = urllib.parse.urlencode(params, doseq=True)
@@ -722,8 +726,8 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
         if saved_data:
             saved_url, is_manual = saved_data
             
-            # Clean URL to remove unused parameters
-            saved_url = clean_url_params(saved_url)
+            # Ensure URL has required parameters
+            saved_url = ensure_url_params(saved_url)
             
             # Extract visual params from saved URL
             visual_params = extract_visual_params_from_url(saved_url)
