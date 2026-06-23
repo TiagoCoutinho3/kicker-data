@@ -706,7 +706,16 @@ def print_db_summary(conn: sqlite3.Connection) -> None:
 
 def import_to_database(dataframes: dict) -> None:
     """Import all data to SQLite database."""
+    # Preserve manually modified avatars before deleting DB
+    manual_avatars = {}
     if DB_PATH.exists():
+        conn = sqlite3.connect(DB_PATH)
+        try:
+            rows = conn.execute("SELECT player_id, image_url FROM players WHERE image_url IS NOT NULL").fetchall()
+            manual_avatars = {pid: url for pid, url in rows}
+            log(f"Preservando {len(manual_avatars):,} avatares do banco existente...")
+        finally:
+            conn.close()
         DB_PATH.unlink()
         log(f"Removido {DB_PATH} anterior.")
 
@@ -723,6 +732,14 @@ def import_to_database(dataframes: dict) -> None:
         for table_name, df in dataframes.items():
             log(f"Importando {table_name} -> {table_name}...")
             import_dataframe_to_sql(conn, df, table_name)
+
+        # Restore manually modified avatars if any
+        if manual_avatars:
+            log("Restaurando avatares manuais...")
+            for pid, url in manual_avatars.items():
+                conn.execute("UPDATE players SET image_url = ? WHERE player_id = ?", (url, pid))
+            restored = conn.execute("SELECT COUNT(*) FROM players WHERE image_url IS NOT NULL").fetchone()[0]
+            log(f"  {restored:,} avatares restaurados")
 
         log("Criando indices...")
         create_indexes(conn)
