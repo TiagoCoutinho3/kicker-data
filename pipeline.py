@@ -770,8 +770,31 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
                 facial_hair_variants.append(visual_params["facial_hair_variant"])
                 continue
             
-            # Auto avatars: update clothing color if club changed
-            if not force:
+            # Auto avatars: regenerate if force, otherwise update clothing color if club changed
+            if force:
+                # Regenerate avatar completely
+                avatar_url, visual_params = get_avatar_url(
+                    player_id=pid,
+                    name=player_name,
+                    country=row["country_of_citizenship"],
+                    position=row["position"],
+                    sub_position=row["sub_position"],
+                    club=current_club,
+                    club_colors=club_colors
+                )
+                new_image_urls.append(avatar_url)
+                is_manual_flags.append(0)
+                avatar_updates += 1
+                # Append visual params
+                skin_colors.append(visual_params["skin_color"])
+                hair_colors.append(visual_params["hair_color"])
+                head_variants.append(visual_params["head_variant"])
+                expression_variants.append(visual_params["expression_variant"])
+                clothing_colors.append(visual_params["clothing_color"])
+                facial_hair_probs.append(visual_params["facial_hair_probability"])
+                facial_hair_variants.append(visual_params["facial_hair_variant"])
+            else:
+                # Update clothing color if club changed
                 if current_club and current_club in club_colors:
                     club_data = club_colors[current_club]
                     if "Principal" in club_data:
@@ -794,18 +817,18 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
                             facial_hair_probs.append(visual_params["facial_hair_probability"])
                             facial_hair_variants.append(visual_params["facial_hair_variant"])
                             continue
-            
-            new_image_urls.append(saved_url)
-            is_manual_flags.append(0)
-            avatar_preserved += 1
-            # Append visual params
-            skin_colors.append(visual_params["skin_color"])
-            hair_colors.append(visual_params["hair_color"])
-            head_variants.append(visual_params["head_variant"])
-            expression_variants.append(visual_params["expression_variant"])
-            clothing_colors.append(visual_params["clothing_color"])
-            facial_hair_probs.append(visual_params["facial_hair_probability"])
-            facial_hair_variants.append(visual_params["facial_hair_variant"])
+                
+                new_image_urls.append(saved_url)
+                is_manual_flags.append(0)
+                avatar_preserved += 1
+                # Append visual params
+                skin_colors.append(visual_params["skin_color"])
+                hair_colors.append(visual_params["hair_color"])
+                head_variants.append(visual_params["head_variant"])
+                expression_variants.append(visual_params["expression_variant"])
+                clothing_colors.append(visual_params["clothing_color"])
+                facial_hair_probs.append(visual_params["facial_hair_probability"])
+                facial_hair_variants.append(visual_params["facial_hair_variant"])
         else:
             # Generate new avatar
             avatar_url, visual_params = get_avatar_url(
