@@ -623,7 +623,7 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         
     elif country_lower in group_4_countries:
         skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
-        expression = rng.choice(["blank", "cheeky", "contempt", "explaining", "tired", "fear", "suspicious"])
+        expression = rng.choice(["blank", "cheeky", "contempt", "explaining", "tired", "suspicious"])
         head = rng.choice(["short1", "short2", "short4", "short5", "grayShort"])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18"])
         
