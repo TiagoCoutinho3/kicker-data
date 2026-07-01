@@ -67,6 +67,90 @@ INDEXES: list[tuple[str, str, str]] = [
 CHUNK_SIZE = 100_000
 
 
+# ==================== COUNTRY EMOJI MAPPING ====================
+
+def get_country_emoji_map() -> dict[str, str]:
+    """Return mapping of country names to country codes."""
+    return {
+        "Afghanistan": "af", "Albania": "al", "Algeria": "dz", "Andorra": "ad",
+        "Angola": "ao", "Antigua and Barbuda": "ag", "Argentina": "ar", "Armenia": "am",
+        "Australia": "au", "Austria": "at", "Azerbaijan": "az", "Bahamas": "bs",
+        "Bahrain": "bh", "Bangladesh": "bd", "Barbados": "bb", "Belarus": "by",
+        "Belgium": "be", "Belize": "bz", "Benin": "bj", "Bhutan": "bt",
+        "Bolivia": "bo", "Bosnia and Herzegovina": "ba", "Bosnia-Herzegovina": "ba", "Botswana": "bw",
+        "Brazil": "br", "Brunei": "bn", "Bulgaria": "bg", "Burkina Faso": "bf",
+        "Burundi": "bi", "Cambodia": "kh", "Cameroon": "cm", "Canada": "ca",
+        "Cape Verde": "cv", "Central African Republic": "cf", "Chad": "td", "Chile": "cl",
+        "China": "cn", "Colombia": "co", "Comoros": "km", "Congo": "cg",
+        "Costa Rica": "cr", "Côte d'Ivoire": "ci", "Cote d'Ivoire": "ci", "Ivory Coast": "ci",
+        "Croatia": "hr", "Cuba": "cu", "Cyprus": "cy", "Czech Republic": "cz",
+        "Czechia": "cz", "Democratic Republic of the Congo": "cd", "DR Congo": "cd", "Denmark": "dk",
+        "Djibouti": "dj", "Dominica": "dm", "Dominican Republic": "do", "Ecuador": "ec",
+        "Egypt": "eg", "El Salvador": "sv", "Equatorial Guinea": "gq", "Eritrea": "er",
+        "Estonia": "ee", "Eswatini": "sz", "Ethiopia": "et", "Fiji": "fj",
+        "Finland": "fi", "France": "fr", "Gabon": "ga", "Gambia": "gm",
+        "The Gambia": "gm", "Georgia": "ge", "Germany": "de", "Ghana": "gh",
+        "Greece": "gr", "Grenada": "gd", "Guatemala": "gt", "Guinea": "gn",
+        "Guinea-Bissau": "gw", "Guyana": "gy", "Haiti": "ht", "Honduras": "hn",
+        "Hong Kong": "hk", "Hungary": "hu", "Iceland": "is", "India": "in",
+        "Indonesia": "id", "Iran": "ir", "Iraq": "iq", "Ireland": "ie",
+        "Israel": "il", "Italy": "it", "Jamaica": "jm", "Japan": "jp",
+        "Jordan": "jo", "Kazakhstan": "kz", "Kenya": "ke", "Kiribati": "ki",
+        "Kosovo": "xk", "Kuwait": "kw", "Kyrgyzstan": "kg", "Laos": "la",
+        "Latvia": "lv", "Lebanon": "lb", "Lesotho": "ls", "Liberia": "lr",
+        "Libya": "ly", "Liechtenstein": "li", "Lithuania": "lt", "Luxembourg": "lu",
+        "Madagascar": "mg", "Malawi": "mw", "Malaysia": "my", "Maldives": "mv",
+        "Mali": "ml", "Malta": "mt", "Marshall Islands": "mh", "Mauritania": "mr",
+        "Mauritius": "mu", "Mexico": "mx", "Micronesia": "fm", "Moldova": "md",
+        "Monaco": "mc", "Mongolia": "mn", "Montenegro": "me", "Morocco": "ma",
+        "Mozambique": "mz", "Myanmar": "mm", "Namibia": "na", "Nauru": "nr",
+        "Nepal": "np", "Netherlands": "nl", "Netherland": "nl", "Holland": "nl",
+        "New Zealand": "nz", "Nicaragua": "ni", "Niger": "ne", "Nigeria": "ng",
+        "North Korea": "kp", "Korea, North": "kp", "North Macedonia": "mk", "Northern Ireland": "gb-nir",
+        "Norway": "no", "Oman": "om", "Pakistan": "pk", "Palau": "pw",
+        "Palestine": "ps", "Panama": "pa", "Papua New Guinea": "pg", "Paraguay": "py",
+        "Peru": "pe", "Philippines": "ph", "Poland": "pl", "Portugal": "pt",
+        "Puerto Rico": "pr", "Qatar": "qa", "Republic of the Congo": "cg", "Romania": "ro",
+        "Russia": "ru", "Rwanda": "rw", "Saint Kitts and Nevis": "kn", "Saint Lucia": "lc",
+        "Saint Vincent and the Grenadines": "vc", "Samoa": "ws", "San Marino": "sm",
+        "Sao Tome and Principe": "st", "Saudi Arabia": "sa", "Scotland": "gb-sct", "Senegal": "sn",
+        "Serbia": "rs", "Seychelles": "sc", "Sierra Leone": "sl", "Singapore": "sg",
+        "Slovakia": "sk", "Slovenia": "si", "Solomon Islands": "sb", "Somalia": "so",
+        "South Africa": "za", "South Korea": "kr", "Korea, South": "kr", "South Sudan": "ss",
+        "Spain": "es", "Sri Lanka": "lk", "Sudan": "sd", "Suriname": "sr",
+        "Sweden": "se", "Switzerland": "ch", "Syria": "sy", "Taiwan": "tw",
+        "Tajikistan": "tj", "Tanzania": "tz", "Thailand": "th", "Timor-Leste": "tl",
+        "Togo": "tg", "Tonga": "to", "Trinidad and Tobago": "tt", "Tunisia": "tn",
+        "Turkey": "tr", "Türkiye": "tr", "Turkmenistan": "tm", "Tuvalu": "tv",
+        "Uganda": "ug", "Ukraine": "ua", "United Arab Emirates": "ae", "UAE": "ae",
+        "United Kingdom": "gb", "England": "gb-eng", "Wales": "gb-wls", "United States": "us",
+        "USA": "us", "Uruguay": "uy", "Uzbekistan": "uz", "Vanuatu": "vu",
+        "Vatican City": "va", "Venezuela": "ve", "Vietnam": "vn", "Yemen": "ye",
+        "Zambia": "zm", "Zimbabwe": "zw",
+    }
+
+
+def get_country_code(country_name: str) -> str:
+    """Get country code for a country name. Returns 'unknown' if not found."""
+    if not country_name or pd.isna(country_name):
+        return "unknown"
+    
+    country_map = get_country_emoji_map()
+    normalized_name = str(country_name).strip()
+    
+    # Direct lookup
+    if normalized_name in country_map:
+        return country_map[normalized_name]
+    
+    # Case-insensitive lookup
+    for key, code in country_map.items():
+        if key.lower() == normalized_name.lower():
+            return code
+    
+    # Fallback to unknown
+    return "unknown"
+
+
 def log(msg: str) -> None:
     print(msg, flush=True)
 
@@ -150,9 +234,11 @@ def process_raw_data() -> dict:
     # Process players
     log("Processando players.csv...")
     players = pd.read_csv(RAW_DIR / "players.csv")
-    players_clean = players[players["player_id"].isin(valid_player_ids)]
+    players_clean = players[players["player_id"].isin(valid_player_ids)].copy()
+    players_clean["country_emoji"] = players_clean["country_of_citizenship"].apply(get_country_code)
     stats["players.csv"] = (len(players), len(players_clean))
     log(f"  Salvo players_clean.csv: {len(players):,} -> {len(players_clean):,}")
+
 
     # Process games
     games_clean = games[games["game_id"].isin(valid_game_ids)]
@@ -275,31 +361,61 @@ def load_existing_avatars_from_db() -> dict[int, tuple[str, bool]]:
         conn.close()
 
 
-def get_color_hex(color_name: str) -> str:
-    """Map Portuguese color names to hex codes."""
-    color_map = {
-        "Vermelho": "#e53935",
-        "Azul": "#1e88e5",
-        "Amarelo": "#fdd835",
-        "Verde": "#43a047",
-        "Preto": "#212121",
-        "Branco": "#ffffff",
-        "Laranja": "#fb8c00",
-        "Vinho": "#7b1fa2",
-        "Cinza": "#757575",
-        "Violeta": "#8e24aa",
-        "Rosa": "#ec407a",
-        "Celeste": "#4fc3f7",
-        "Xadrez": "#424242",
-        "Dourado": "#ffb300",
-        "Bordo": "#880e4f",
-        "Roxo": "#6a1b9a",
-        "Grená": "#8d6e63",
-        "Azul marinho": "#0d47a1",
-        "Borgonha": "#7b1fa2",
-        "Marrom": "#795548"
-    }
-    return color_map.get(color_name, "#757575")
+def restore_existing_avatar_data(players: pd.DataFrame) -> pd.DataFrame:
+    """Restore image_url and is_manual values from the existing database when avatars are skipped."""
+    existing_avatars = load_existing_avatars_from_db()
+    if not existing_avatars:
+        log("Nenhum avatar existente encontrado no football.db; os jogadores ficarão sem image_url.")
+        return players.copy()
+
+    log("Restaurando image_url/is_manual a partir do football.db...")
+    players_with_avatar_data = players.copy()
+    image_urls: list[str | None] = []
+    is_manual_flags: list[int] = []
+
+    for _, row in players_with_avatar_data.iterrows():
+        pid = int(row["player_id"])
+        saved_data = existing_avatars.get(pid)
+        if saved_data:
+            saved_url, is_manual = saved_data
+            image_urls.append(saved_url)
+            is_manual_flags.append(int(is_manual))
+        else:
+            image_urls.append(None)
+            is_manual_flags.append(0)
+
+    players_with_avatar_data["image_url"] = image_urls
+    players_with_avatar_data["is_manual"] = is_manual_flags
+    return players_with_avatar_data
+
+
+def get_club_primary_color_hex(club_name: str | None, club_colors: dict | None = None) -> str | None:
+    """Return the club primary color as a hex code for frontend consumption."""
+    if pd.isna(club_name) or not club_name:
+        return None
+
+    if club_colors is None:
+        club_colors = load_club_colors()
+
+    if not club_colors:
+        return None
+
+    club_data = club_colors.get(club_name)
+    if not isinstance(club_data, dict):
+        return None
+
+    color_value = club_data.get("Principal")
+    if not color_value:
+        return None
+
+    if not isinstance(color_value, str):
+        return None
+
+    color_value = color_value.strip()
+    if not color_value.startswith("#"):
+        color_value = f"#{color_value}"
+
+    return color_value
 
 
 def update_clothing_color_in_url(url: str, new_clothing_color: str) -> str:
@@ -660,10 +776,7 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
     # Get club color for clothing
     clothing_color = "#757575"
     if club and club_colors:
-        club_data = club_colors.get(club)
-        if club_data and "Principal" in club_data:
-            color_name = club_data["Principal"]
-            clothing_color = get_color_hex(color_name)
+        clothing_color = get_club_primary_color_hex(club, club_colors) or "#757575"
     
     # Build visual params dict
     visual_params = {
@@ -736,11 +849,9 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
             
             # Manual avatars: update clothing color but preserve everything else
             if is_manual:
-                if current_club and current_club in club_colors:
-                    club_data = club_colors[current_club]
-                    if "Principal" in club_data:
-                        color_name = club_data["Principal"]
-                        new_clothing_color = get_color_hex(color_name)
+                if current_club and club_colors:
+                    new_clothing_color = get_club_primary_color_hex(current_club, club_colors)
+                    if new_clothing_color:
                         current_color = get_clothing_color_from_url(saved_url)
                         # Only update if color actually changed
                         if current_color != new_clothing_color:
@@ -797,11 +908,9 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
                 facial_hair_variants.append(visual_params["facial_hair_variant"])
             else:
                 # Update clothing color if club changed
-                if current_club and current_club in club_colors:
-                    club_data = club_colors[current_club]
-                    if "Principal" in club_data:
-                        color_name = club_data["Principal"]
-                        new_clothing_color = get_color_hex(color_name)
+                if current_club and club_colors:
+                    new_clothing_color = get_club_primary_color_hex(current_club, club_colors)
+                    if new_clothing_color:
                         current_color = get_clothing_color_from_url(saved_url)
                         # Only update if color actually changed
                         if current_color != new_clothing_color:
@@ -898,6 +1007,18 @@ def import_reference_files(conn: sqlite3.Connection) -> None:
         csv_path = RAW_DIR / csv_name
         log(f"Importando {csv_name} -> {table}...")
         df = pd.read_csv(csv_path)
+        
+        # Add club_color column for clubs table
+        if table == "clubs" and CLUB_COLORS_FILE.exists():
+            club_colors = load_club_colors()
+
+            def get_club_color(club_name: str) -> str:
+                if pd.isna(club_name):
+                    return None
+                return get_club_primary_color_hex(club_name, club_colors)
+
+            df["club_color"] = df["name"].apply(get_club_color)
+        
         import_dataframe_to_sql(conn, df, table)
 
 
@@ -981,6 +1102,7 @@ def main() -> None:
         log("")
     else:
         log("STEP 2: Geracao de avatares pulada (--skip-avatars)")
+        dataframes["players"] = restore_existing_avatar_data(dataframes["players"])
         log("")
 
     # Step 3: Import to database

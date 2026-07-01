@@ -1,792 +1,3162 @@
 {
-  "Independiente Medellín": { "Principal": "Vermelho", "Goleiro": "Verde" },
-  "Watford FC": { "Principal": "Amarelo", "Goleiro": "Verde" },
-  "Halmstads BK": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Sarpsborg 08 Fotballforening": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Cerezo Osaka": { "Principal": "Rosa", "Goleiro": "Preto" },
-  "Sociedade Esportiva Palmeiras": { "Principal": "Verde", "Goleiro": "Cinza" },
-  "Bologna Football Club 1909": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Club Atlético Vélez Sársfield": { "Principal": "Azul", "Goleiro": "Verde" },
-  "Asociación Atlética Argentinos Juniors": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Luton Town": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "Reading FC": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "UC Sampdoria": { "Principal": "Azul", "Goleiro": "Verde" },
-  "Queens Park Rangers": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Olympique Lyonnais": { "Principal": "Branco", "Goleiro": "Preto" },
-  "Djurgårdens Idrottsförening": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Calcio Como": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Kasımpaşa A.Ş.": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Valencia Club de Fútbol S. A. D.": { "Principal": "Branco", "Goleiro": "Verde" },
-  "Esporte Clube Juventude": { "Principal": "Verde", "Goleiro": "Preto" },
-  "SV Darmstadt 98": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Villarreal Club de Fútbol S.A.D.": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Deportes Tolima": { "Principal": "Vinho", "Goleiro": "Amarelo" },
-  "CA San Martín (San Juan)": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Aalborg BK": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Bryne FK": { "Principal": "Vermelho", "Goleiro": "Azul" },
-  "Hammarby IF": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Los Angeles Galaxy": { "Principal": "Branco", "Goleiro": "Verde" },
-  "S-Pulse": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "Viborg Fodsports Forening": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Nagoya Grampus Eight": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FC Zorya Lugansk": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Wigan Athletic": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Sporting Clube de Braga": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Lille Olympique Sporting Club": { "Principal": "Azul marinho", "Goleiro": "Amarelo" },
-  "FK Rostov": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Málaga CF": { "Principal": "Azul", "Goleiro": "Verde" },
-  "Vitória Setúbal FC": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Fortaleza Esporte Clube": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Alkmaar Zaanstreek": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Panthessalonikios Athlitikos Omilos Konstantinoupoliton": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Idrottsföreningen Brommapojkarna": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "ESTAC Troyes": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Royal Antwerp Football Club": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Clube do Remo": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Arsenal Football Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Sportsklubben Brann": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Idrottsföreningen Elfsborg": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "AVS Futebol SAD": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Club de Gimnasia y Esgrima La Plata": { "Principal": "Azul", "Goleiro": "Verde" },
-  "Deportivo Alavés S. A. D.": { "Principal": "Azul", "Goleiro": "Preto" },
-  "BK Häcken": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Huddersfield Town": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Mordovia Saransk (-2020)": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Ural Yekaterinburg": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "Al-Hilal Saudi Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Toronto FC": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Örgryte IS": { "Principal": "Vermelho", "Goleiro": "Azul" },
-  "NK Lokomotiva Zagreb": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Norwich City": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Fakel Voronezh": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Alanyaspor": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "Burnley Football Club": { "Principal": "Vinho", "Goleiro": "Verde" },
-  "ASFC Buzau (2016-2025)": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Beşiktaş Jimnastik Kulübü": { "Principal": "Preto", "Goleiro": "Amarelo" },
-  "Impulsora del Deportivo Necaxa S.A. de C.V.": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "AC Ajaccio": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Brentford Football Club": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "San Diego Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Football Club Lorient-Bretagne Sud": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "AS Nancy-Lorraine": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Nîmes Olympique": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "SM Caen": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Independiente Santa Fe": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Giresunspor": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Silkeborg Idrætsforening": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Club Atlético Tigre": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Auckland Football Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Koninklijke Racing Club Genk": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Junior FC": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Torpedo Moscow": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Falkirk Football & Athletic Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Associazione Sportiva Roma": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Kocaelispor Kulübü": { "Principal": "Verde", "Goleiro": "Preto" },
-  "FK Dinamo Moskva": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "US Livorno 1915": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Club Sportivo Independiente Rivadavia": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Sportklub Puntigamer Sturm Graz": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Club Atlético Aldosivi": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Girona Fútbol Club S. A. D.": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Club Atlético Independiente de Avellaneda": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Östers IF": { "Principal": "Vermelho", "Goleiro": "Azul" },
-  "Brighton and Hove Albion Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Rangers Football Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Livingston Football Club": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Volga Nizhniy Novgorod (- 2016)": { "Principal": "Branco", "Goleiro": "Preto" },
-  "CD Leganés": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "KAS Eupen": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Club Atlético Sarmiento": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Colorado Rapids": { "Principal": "Borgonha", "Goleiro": "Amarelo" },
-  "CD Godoy Cruz Antonio Tomba": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Çaykur Rizespor Kulübü": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "ADO Den Haag": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Prins Hendrik Ende Desespereert Nimmer Combinatie Zwolle": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "SC Paderborn 07": { "Principal": "Azul", "Goleiro": "Preto" },
-  "AO Xanthi": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "FC Emmen": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Club Atlético Newell’s Old Boys": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Tromsø Idrettslag": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Club Atlético de Madrid S.A.D.": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Parma Calcio 1913": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "CS Marítimo": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Heracles Almelo": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Futbol Club Barcelona": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Nooit Opgeven Altijd Doorzetten Aangenaam Door Vermaak En Nuttig Door Ontspanning Combinatie Breda": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "SK Dynamo Ceske Budejovice": { "Principal": "Preto", "Goleiro": "Verde" },
-  "FK Jablonec a.s.": { "Principal": "Verde", "Goleiro": "Preto" },
-  "SC Cambuur Leeuwarden": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Club Tijuana Xoloitzcuintles de Caliente": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "MFK Karvina": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Siena FC": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Cagliari Calcio": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Fußballklub Austria Wien": { "Principal": "Violeta", "Goleiro": "Preto" },
-  "Club Santos Laguna S. A. de C. V.": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Galatasaray Spor Kulübü": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "RAEC Mons (- 2015)": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Amiens SC": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Thonon Évian Grand Genève FC": { "Principal": "Rosa", "Goleiro": "Preto" },
-  "Club Atlético Rosario Central": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Real Zaragoza": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Angers Sporting Club de l'Ouest": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Stade Reims": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Valenciennes FC": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "VVV-Venlo": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Cesena FC": { "Principal": "Branco", "Goleiro": "Verde" },
-  "Sportclub Telstar": { "Principal": "Branco", "Goleiro": "Amarelo" },
-  "Go Ahead Eagles": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "SC Beira-Mar": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Hrvatski Nogometni Klub Rijeka": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Racing Club Asociación Civil de Avellaneda": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FC Dordrecht": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Club Atlético Tucumán": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FC Orenburg": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Asociación Atlética Estudiantes": { "Principal": "Celeste", "Goleiro": "Preto" },
-  "Boyacá Chicó FC": { "Principal": "Xadrez", "Goleiro": "Amarelo" },
-  "Grupo Desportivo Estoril Praia": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Göztepe Sportif Yatırımlar A.Ş.": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Unión Magdalena": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Club Atlético Gimnasia y Esgrima de Mendoza": { "Principal": "Branco", "Goleiro": "Preto" },
-  "Tottenham Hotspur Football Club": { "Principal": "Branco", "Goleiro": "Verde" },
-  "FK Pardubice": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Bayer 04 Leverkusen Fußball": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Real Betis Balompié S.A.D.": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Kardemir Karabükspor": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Dundee United Football Club": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "Samsunspor": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Fudbalski Klub Spartak Ždrepčeva krv": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Elche Club de Fútbol S.A.D.": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "SD Eibar": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Koninklijke Atletiek Associatie Gent": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Fudbalski klub Crvena zvezda Beograd": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Termalica Bruk-Bet Nieciecza Klub Sportowy": { "Principal": "Laranja", "Goleiro": "Amarelo" },
-  "Borussia Dortmund": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Association sportive de Monaco Football Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Desna Chernigiv": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FK Sevastopol (- 2014)": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "PFK Stal Kamyanske (-2018)": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Catania FC": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Fußball-Club Augsburg 1907": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FK Krasnodar": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Granada CF": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Zagłębie Lubin Spółka Akcyjna": { "Principal": "Laranja", "Goleiro": "Amarelo" },
-  "Panionios Athens": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Sportklub Rapid": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Royal Charleroi Sporting Club": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Al-Wehda FC": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Odense Boldklub": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Internacional de Bogotá": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Club Atlético San Lorenzo de Almagro": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Associação Chapecoense de Futebol": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Borussia Verein für Leibesübungen 1900 Mönchengladbach": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Southampton FC": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Deportivo Toluca Futbol Club, S. A. de C. V.": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "PFK Lviv": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Instituto Atlético Central Córdoba": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FC Oleksandriya": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Al-Ahli Saudi Football Club": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Al-Nassr Football Club": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Club Atlético Boca Juniors": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Hvidovre IF": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FC Hradec Králové a.s.": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Brescia Calcio": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Football Club København": { "Principal": "Branco", "Goleiro": "Preto" },
-  "Roda JC Kerkrade": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Rosenborg Ballklub": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Vendsyssel FF": { "Principal": "Branco", "Goleiro": "Amarelo" },
-  "Jeju SK Football Club": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "AC Sparta Praha, a. s.": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Akhisarspor": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Asociación de Fomento Deportivo Riestra Barrio Colón": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Yeni Malatyaspor": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Sport Club Corinthians Paulista": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Bursaspor": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Football Club Utrecht": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FC Vestsjaelland": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Football Club Groningen": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Ceará Sporting Club": { "Principal": "Preto", "Goleiro": "Verde" },
-  "1. Fußballclub Heidenheim 1846": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Lierse SK (- 2018)": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Rionegro Águilas": { "Principal": "Dourado", "Goleiro": "Preto" },
-  "Brøndby Idrætsforening": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Club Atlético Huracán": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Balikesirspor": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Veria NPS": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "FK Jedinstvo Ub": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Club Atlético River Plate": { "Principal": "Branco", "Goleiro": "Verde" },
-  "Grêmio Foot-Ball Porto Alegrense": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Kristiansund Ballklubb": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Wisła Płock Spółka Akcyjna": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Esporte Clube Vitória": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Gangwon Football Club": { "Principal": "Laranja", "Goleiro": "Amarelo" },
-  "Fußballclub Blau-Weiß Linz": { "Principal": "Azul", "Goleiro": "Preto" },
-  "San Jose Earthquakes": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "AO Platanias": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Football Club Mito HollyHock": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Santos Futebol Clube": { "Principal": "Branco", "Goleiro": "Verde" },
-  "FC Helsingör": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Fagiano Okayama Sports Club": { "Principal": "Vinho", "Goleiro": "Amarelo" },
-  "SK Tavriya Simferopol ( - 2022)": { "Principal": "Azul", "Goleiro": "Preto" },
-  "HNK Sibenik": { "Principal": "Laranja", "Goleiro": "Amarelo" },
-  "Al-Raed SFC": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Unione Sportiva Cremonese S.p.A.": { "Principal": "Cinza", "Goleiro": "Preto" },
-  "Kashima Antlers FC": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Stal Mielec": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Club Brugge Koninklijke Voetbalvereniging": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Swansea City": { "Principal": "Branco", "Goleiro": "Preto" },
-  "Alianza FC": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Elazigspor": { "Principal": "Bordo", "Goleiro": "Preto" },
-  "Konyaspor": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Eintracht Braunschweig": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Jagiellonia-Bialystok Sportowa Spólka Akcyjna": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "SK Sigma Olomouc, a.s.": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "KFUM-Kameratene Oslo": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FK Spartak Moskva": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Orduspor": { "Principal": "Roxo", "Goleiro": "Preto" },
-  "Feyenoord Rotterdam": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "RKC Waalwijk": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Millonarios FC": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "CD América de Cali": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Zelvia": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "V-Varen Nagasaki": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Olimpik Donetsk": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "NK Slaven Belupo Koprivnica": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Real Club Deportivo Mallorca S.A.D.": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Altay SK": { "Principal": "Preto", "Goleiro": "Verde" },
-  "KKS Lech Poznań Spółka Akcyjna": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Sivasspor": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "RasenBallsport Leipzig": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Viking Fotballklubb": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Eintracht Frankfurt Fußball AG": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Club Social y Deportivo Defensa y Justicia": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Club de Fútbol Monterrey Rayados A.C.": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "PFK CSKA Moskva": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "AC Horsens": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Club Atlético Belgrano": { "Principal": "Celeste", "Goleiro": "Amarelo" },
-  "Fussballclub Winterthur": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Vitória Sport Clube": { "Principal": "Branco", "Goleiro": "Verde" },
-  "Clube Desportivo Santa Clara": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Gil Vicente Futebol Clube": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Ümraniyespor": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Rio Ave Futebol Clube": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Club Football Estrela da Amadora": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Kuban Krasnodar (-2018)": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Olympique de Marseille": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "D.C. United": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Athlitiki Enosi Konstantinoupoleos": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Wattener Sportgemeinschaft Swarovski Tirol": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Sporting Gijón": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Inverness Caledonian Thistle FC": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "B SAD": { "Principal": "Azul", "Goleiro": "Preto" },
-  "HNK Gorica": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Fluminense Football Club": { "Principal": "Grená", "Goleiro": "Verde" },
-  "Karpaty Lviv (-2021)": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Real Oviedo S.A.D.": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Boavista FC": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Club Atlético Barracas Central": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Genoa Cricket and Football Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Futebol Clube de Alverca": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Philadelphia Union": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Legia Warszawa Spółka Akcyjna": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Kilmarnock Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Melbourne City Football Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FC St. Gallen 1879": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "St. Johnstone FC": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FC Basel 1893 AG": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "FC Zürich": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Al-Qadsiah Saudi Football Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "NK Veres Rivne": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Panathinaikos Athlitikos Omilos": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Sportvereinigung Ried 1912": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Idrettsklubben Start": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "PAS Giannina": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "APO Levadiakos Football Club": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Cádiz CF": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Holstein Kiel": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "PFK Krylya Sovetov Samara": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Sanfrecce Hiroshima": { "Principal": "Violeta", "Goleiro": "Amarelo" },
-  "FC Rubin Kazan": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FC Bayern München": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Anzhi Makhachkala ( -2022)": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Spartak Vladikavkaz (-2020)": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "RFC Seraing": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Mjällby Almänna Idrottsförening": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Allmänna Idrottsklubben": { "Principal": "Preto", "Goleiro": "Verde" },
-  "SPAL": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Al-Fateh Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Oud-Heverlee Leuven": { "Principal": "Branco", "Goleiro": "Amarelo" },
-  "Stade Rennais Football Club": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Vorskla Poltava": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "FK Baltika": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Ross County FC": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Verona Hellas Football Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Partick Thistle FC": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "FK Haugesund": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Fodbold Club Nordsjælland": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Metalurg Donetsk (- 2015)": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FC Lugano": { "Principal": "Preto", "Goleiro": "Verde" },
-  "FK Ufa": { "Principal": "Roxo", "Goleiro": "Amarelo" },
-  "Manchester City Football Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Strømsgodset IF": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Gaziantep Futbol Kulübü A.Ş.": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "IFK Norrköping": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "KV Oostende": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "SK Beveren": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "SK Austria Klagenfurt": { "Principal": "Violeta", "Goleiro": "Amarelo" },
-  "Club Estudiantes de La Plata": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Al-Taawoun Football Club": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Puszcza Niepolomice": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Sunderland Association Football Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "AEL Kalloni": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Everton Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Association de la Jeunge auxerroise": { "Principal": "Azul", "Goleiro": "Preto" },
-  "AC Monza": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Delfino Pescara 1936": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Royal Excel Mouscron (-2022)": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Sport Lisboa e Benfica": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Ankaraspor": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Dijon FCO": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Asociația Fotbal Club Unirea 04 Slobozia": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "F.C.V. Farul Constanța SA": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Académica Coimbra": { "Principal": "Preto", "Goleiro": "Verde" },
-  "FC Paços de Ferreira": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Incheon United Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Hamilton Academical FC": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "1. Fußball-Club Köln": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Hull City": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "SC Fotbal Club FCSB SA": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Athlitiki Enosi Kifisias": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Royal Standard Club de Liège": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Sportclub Heerenveen": { "Principal": "Azul", "Goleiro": "Preto" },
-  "APS Atromitos Athinon": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Athens Kallithea": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Gwangju Football Club": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Liverpool Football Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Al-Riyadh Saudi Club": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Football Club Pohang Steelers": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "SC Dinamo 1948 SA": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Club Atlético Central Córdoba": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Fudbalski klub TSC Bačka Topola": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Grazer Athletiksport Klub 1902": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Suwon FC": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Football Club Twente": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Fortaleza CEIF": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Kayserispor Kulübü": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Pendikspor": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "FC Sion": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Fudbalski Klub IMT Novi Beograd": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Mersin Talimyurdu SK": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Yverdon Sport FC": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Al-Najma Sport Club": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Morski Klub Sportowy Pogoń Szczecin": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Casa Pia Atlético Clube": { "Principal": "Preto", "Goleiro": "Verde" },
-  "NK Osijek s.d.d.": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FC Schalke 04": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Clube Atlético Mineiro": { "Principal": "Preto", "Goleiro": "Verde" },
-  "UD Almería": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Club Atlético Osasuna": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "GD Chaves": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FC Penafiel": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Futebol Clube de Famalicão": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Club Atlético Lanús": { "Principal": "Grená", "Goleiro": "Amarelo" },
-  "Fudbalski klub Radnik Surdulica": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Desportivo Aves (- 2020)": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "CD Feirense": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Sporting Clube de Portugal": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Levante Unión Deportiva S.A.D.": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Futbolniy Klub Dynamo Kyiv": { "Principal": "Branco", "Goleiro": "Amarelo" },
-  "Panserraikos Serres": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Dnipro Dnipropetrovsk (-2020)": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "ACSM Politehnica Iasi": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Esbjerg fB": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Football Club de Metz": { "Principal": "Grená", "Goleiro": "Preto" },
-  "Neom Sports Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Fußball-Club St. Pauli von 1910": { "Principal": "Marrom", "Goleiro": "Preto" },
-  "Sheffield United": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Sportvereniging Zulte Waregem": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Spezia Calcio": { "Principal": "Branco", "Goleiro": "Amarelo" },
-  "Clermont Foot 63": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Motor Lublin Spółka Akcyjna": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Lillestrøm Sportsklubb": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Ulsan Hyundai Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Yellow-Red Koninklijke Voetbalclub Mechelen": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Sportclub Rheindorf Altach": { "Principal": "Preto", "Goleiro": "Verde" },
-  "GFC Ajaccio": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Bucheon Football Club 1995": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FK Kryvbas Kryvyi Rig": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Fenerbahçe Spor Kulübü": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Rotor Volgograd": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Western Sydney Wanderers": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "IFK Värnamo": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Club de Futbol América S. A. de C. V.": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Degerfors IF": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Kalmar Fotbollförening": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Real Valladolid CF": { "Principal": "Violeta", "Goleiro": "Amarelo" },
-  "Rayo Vallecano de Madrid S. A. D.": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Sevilla Fútbol Club S.A.D.": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Lyngby Boldklub": { "Principal": "Azul", "Goleiro": "Preto" },
-  "SKA Khabarovsk": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Tom Tomsk": { "Principal": "Verde", "Goleiro": "Preto" },
-  "FK Tekstilac Odzaci": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Aberdeen Football Club": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Getafe Club de Fútbol S. A. D. Team Dubai": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "The Celtic Football Club": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Club de Fútbol Cruz Azul S.A. de C.V.": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Enisey Krasnoyarsk": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FC Khimki (-2025)": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "RFK Akhmat Grozny": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Asociația Futball Klub Csíkszereda Miercurea Ciuc": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Arsenal Tula": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Tokyo Verdy": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Fotbal Club Metaloglobus București SA": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FC Baník Ostrava a.s.": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "West Ham United Football Club": { "Principal": "Vinho", "Goleiro": "Preto" },
-  "Fortuna Düsseldorf": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "US Salernitana 1919": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Yokohama Marinos": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Eindhovense Voetbalvereniging Philips Sport Vereniging": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Fredrikstad Fotballklubb": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Adana Demirspor": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Fortuna Sittardia Combinatie": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Llaneros FC": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Mirasol Futebol Clube": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Football Club Anyang": { "Principal": "Violeta", "Goleiro": "Amarelo" },
-  "1. Fußball- und Sportverein Mainz 05": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "RAAL La Louvière": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "FK Obolon Kyiv": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Stade brestois 29": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Club Atlético Talleres": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Royale Union Saint-Gilloise": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Al-Orobah FC": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Rakuten Vissel Kobe": { "Principal": "Grená", "Goleiro": "Amarelo" },
-  "Erzurumspor FK": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Società Sportiva Lazio S.p.A.": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Leeds United Association Football Club": { "Principal": "Branco", "Goleiro": "Preto" },
-  "PAS Lamia 1964": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "1.FC Nuremberg": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FC Girondins Bordeaux": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Klub Sportowy Lechia Gdańsk": { "Principal": "Verde", "Goleiro": "Preto" },
-  "New York City Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Club Atlético de San Luis": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Willem II Tilburg": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Promotora del Club Pachuca S. A. de C. V.": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FC Tosno (-2018)": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Aston Villa Football Club": { "Principal": "Vinho", "Goleiro": "Amarelo" },
-  "Club de Foot Montréal": { "Principal": "Azul", "Goleiro": "Preto" },
-  "U Craiova 1948 Club Sportiv SA": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "FC Crotone": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Fußballclub Red Bull Salzburg": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Hamburger Sport Verein": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Udinese Calcio": { "Principal": "Preto", "Goleiro": "Verde" },
-  "AC Carpi": { "Principal": "Branco", "Goleiro": "Amarelo" },
-  "PFK Tambov (-2021)": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FK Sochi": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Beerschot VA": { "Principal": "Violeta", "Goleiro": "Preto" },
-  "Asociația Clubul Sportiv Campionii Fotbal Club Argeș": { "Principal": "Violeta", "Goleiro": "Amarelo" },
-  "Amkar Perm": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Linzer Athletik-Sport-Klub": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Toulouse Football Club": { "Principal": "Violeta", "Goleiro": "Amarelo" },
-  "Torino Calcio": { "Principal": "Grená", "Goleiro": "Preto" },
-  "Olympique Gymnaste Club Nice Côte d'Azur": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Benevento Calcio": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Pisa Sporting Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Real Madrid Club de Fútbol": { "Principal": "Branco", "Goleiro": "Preto" },
-  "GNK Dinamo Zagreb": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Hannover 96": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Klub Sportowy Górnik Zabrze Sportowa Spółka Akcyjna": { "Principal": "Branco", "Goleiro": "Amarelo" },
-  "Sporting Kansas City": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Portland Timbers": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "SC Farense": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Heart of Midlothian Football Club": { "Principal": "Grená", "Goleiro": "Amarelo" },
-  "Associazione Calcio Fiorentina": { "Principal": "Violeta", "Goleiro": "Preto" },
-  "Hamarkameratene": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Chicago Fire Soccer Club": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FC Luzern": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Hertha BSC": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Bodrum FK": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Apollon Smyrnis": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Vejle Boldklub": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "RZ Pellets Wolfsberger Athletiksport Club": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Turn- und Sportverein Egger Glas Hartberg": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "HNK Hajduk Split": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Fudbalski Klub Vojvodina": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Volyn Lutsk": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Trabzonspor Kulübü": { "Principal": "Bordo", "Goleiro": "Amarelo" },
-  "FK Dukla Praha a.s.": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Berner Sport Club Young Boys": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Fotbal Club Rapid 1923 SA": { "Principal": "Vinho", "Goleiro": "Amarelo" },
-  "HNK Vukovar 1991": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Orlando City Soccer Club": { "Principal": "Roxo", "Goleiro": "Amarelo" },
-  "Palermo FC": { "Principal": "Rosa", "Goleiro": "Preto" },
-  "Football Club Internazionale Milano S.p.A.": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Athlitiki Enosi Larisas": { "Principal": "Vinho", "Goleiro": "Preto" },
-  "Fudbalski Klub Novi Pazar": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "FK Radnički 1923 Kragujevac": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Saint Mirren Football Club": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Nijmegen Eendracht Combinatie": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Sparta Rotterdam": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Iraklis Thessaloniki": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "UD Las Palmas": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Koninklijke Sint-Truidense Voetbalvereniging": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "SC Olhanense": { "Principal": "Preto", "Goleiro": "Verde" },
-  "FC Ingolstadt 04": { "Principal": "Preto", "Goleiro": "Verde" },
-  "FK Kolos Kovalivka": { "Principal": "Branco", "Goleiro": "Amarelo" },
-  "FC Rukh Lviv": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Fútbol Club Juárez": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Ingulets Petrove": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Club León Fútbol Club": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "SC Oţelul Galaţi": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Malmö Fotbollförening": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Querétaro Fútbol Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FK Nizhny Novgorod": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "KSC Lokeren (- 2020)": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Vitesse Arnhem": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Associazione Calcio Milan": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Fotballklubben Bodø/Glimt": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Grasshopper Club Zürich": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Al-Fayha FC": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "Damac Football Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Juventus Football Club": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Dundee Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Stoke City": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Atlanta United Football Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Football Club Cincinnati": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Los Angeles Football Club": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Cercle Brugge Koninklijke Sportvereniging": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Västerås Sportklubb FK": { "Principal": "Verde", "Goleiro": "Preto" },
-  "AOK Kerkyra": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "GS Ergotelis": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Gaziantepspor (- 2020)": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Football Club Lausanne-Sport": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Omladinski fudbalski klub Beograd": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Turn- und Sportgemeinschaft 1899 Hoffenheim Fußball-Spielbetriebs": { "Principal": "Azul", "Goleiro": "Preto" },
-  "SD Huesca": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "FK Polissya Zhytomyr": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "S. A. F. Botafogo": { "Principal": "Preto", "Goleiro": "Verde" },
-  "RWD Molenbeek": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Wolverhampton Wanderers Football Club": { "Principal": "Ouro", "Goleiro": "Preto" },
-  "Sepsi OSK Sf. Gheorghe": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Ionikos Nikeas": { "Principal": "Azul", "Goleiro": "Preto" },
-  "1. FC Slovácko": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "FC Trinity Zlin": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "FK Mladá Boleslav, a.s.": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Newcastle United Jets Football Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "TOV FK Metalist 1925 Kharkiv": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Niki Volou": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Minnesota United FC": { "Principal": "Cinza", "Goleiro": "Amarelo" },
-  "Aalesunds Fotballklubb": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "Beerschot AC": { "Principal": "Violeta", "Goleiro": "Amarelo" },
-  "Club de Futbol Puebla de La Franja": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Klub Sportowy Cracovia Spółka Akcyjna": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Randers Fodbold Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Fodbold Club Fredericia": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Royal Sporting Club Anderlecht": { "Principal": "Violeta", "Goleiro": "Preto" },
-  "Asociația Fotbal Club Hermannstadt": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Sønderjyske Fodbold": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Hobro IK": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Paris Saint-Germain Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "São Paulo Futebol Clube": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Antalyaspor": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Kyoto Purple Sanga": { "Principal": "Violeta", "Goleiro": "Preto" },
-  "Železničar Pančevo": { "Principal": "Branco", "Goleiro": "Amarelo" },
-  "SC Bastia": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Gamba Osaka": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "NK Varazdin": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Adanaspor": { "Principal": "Laranja", "Goleiro": "Amarelo" },
-  "Sport-Club Freiburg": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "KV Kortrijk": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Cardiff City": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Aris Thessalonikis": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "SC Dnipro-1": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Venezia FC": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Al-Khaleej Club (Saihat)": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Cruzeiro Esporte Clube": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Volou Neos Podosferikos Syllogos": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Servette Football Club 1890 SA": { "Principal": "Grená", "Goleiro": "Amarelo" },
-  "AFC Ajax Amsterdam": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Morski Związkowy Klub Sportowy Arka Gdynia Spółka Akcyjna": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Miejski Klub Sportowy Korona Kielce Spółka Akcyjna": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Gliwicki Klub Sportowy Piast Spółka Akcyjna": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Clube de Regatas do Flamengo": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "AS Saint-Étienne": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "FC Minaj": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Società Sportiva Calcio Napoli": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "SK Slavia Praha, a.s.": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Athletic Club Bilbao": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Red Bull New York": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "New England Revolution": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "LNZ Cherkasy": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Chelsea Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Vancouver Whitecaps FC": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Nashville SC": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Sandefjord Fotball": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Middlesbrough FC": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Metalist Kharkiv (- 2016)": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Panetolikos Agrinio": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "De Graafschap Doetinchem": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Asociația Sportivă Fotbal Club Universitatea Cluj": { "Principal": "Preto", "Goleiro": "Verde" },
-  "GKS GieKSa Katowice Spółka Akcyjna": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Atlético Bucaramanga": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Foundation Coorperation Hana Financial Group Inc. Football Club": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "SpVgg Greuther Fürth": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Football Club Seoul": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Jeonbuk Hyundai Motors": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Daegu FC": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Gimcheon Sangmu Football Club": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Omilos Filathlon Irakliou FC": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Unione Sportiva Sassuolo Calcio": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "FC Shakhtar Donetsk": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "Sport Club Internacional": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Fudbalski klub Čukarički Beograd": { "Principal": "Branco", "Goleiro": "Preto" },
-  "Fudbalski Klub Mladost Lučani": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Tokyo Football Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Hitachi Kashiwa Reysol": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Real Salt Lake": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Fatih Karagümrük Sportif Faaliyetler San. Tic. A.Ş.": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Racing Club de Strasbourg Alsace": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "A.G.S Asteras Tripolis": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Fudbalski Klub Partizan Beograd": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Club Deportivo Guadalajara S. A. de C. V.": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "JEF United": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Ipswich Town": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Aarhus Gymnastik Forening": { "Principal": "Branco", "Goleiro": "Preto" },
-  "Clube Atlético Paranaense": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Real Sociedad de Fútbol S.A.D.": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Olympiakos Syndesmos Filathlon Peiraios": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "CF Os Belenenses": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Molde Fotballklubb": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "İstanbul Başakşehir Futbol Kulübü": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Kayseri Erciyesspor": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "FC Vizela": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Club Internacional de Fútbol Miami": { "Principal": "Rosa", "Goleiro": "Amarelo" },
-  "Central Coast Mariners Football Club": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "FC Slovan Liberec": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Once Caldas": { "Principal": "Branco", "Goleiro": "Preto" },
-  "Chornomorets Odesa": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "FK Mariupol": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Metalurg Zaporizhya (-2016)": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Goverla Uzhgorod (- 2016)": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Melbourne Victory FC": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Göteborgs Atlet- och Idrottssällskap": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Nottingham Forest Football Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Club Tigres UANL Sinergia Deportiva S.A. de C.V.": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Club Atlético Unión": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Western United FC": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Macarthur South West Sydney (A-League)": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Envigado FC": { "Principal": "Laranja", "Goleiro": "Amarelo" },
-  "Reial Club Deportiu Espanyol de Barcelona S.A.D.": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Bohemians Praha 1905, a.s.": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Radomiak S.A.": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Eyüp Spor Kulübü": { "Principal": "Lavanda", "Goleiro": "Amarelo" },
-  "Al-Okhdood Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Clube Desportivo de Tondela": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Panthrakikos Komotini": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Akron Togliatti": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Futebol Clube do Porto": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Almere City FC": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Austin FC": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Football Club Volendam": { "Principal": "Laranja", "Goleiro": "Amarelo" },
-  "Portimonense SC": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Le Havre Athletic Club": { "Principal": "Azul marinho", "Goleiro": "Amarelo" },
-  "FC Empoli": { "Principal": "Azul", "Goleiro": "Preto" },
-  "FC Sochaux-Montbéliard": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Dinamo Makhachkala": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Fudbalski Klub Radnički Niš": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Slask Wroclaw": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Vålerengens Idrettsforening": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Newcastle United Football Club": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Club Universidad Nacional A. C.": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Al-Ettifaq Football Club": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Coritiba Foot Ball Club": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Fotbal Club CFR 1907 Cluj SA": { "Principal": "Bordo", "Goleiro": "Preto" },
-  "Hatayspor": { "Principal": "Bordo", "Goleiro": "Amarelo" },
-  "Brisbane Roar FC": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "Charlotte Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Fudbalski klub Napredak Kruševac": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Verein für Bewegungsspiele Stuttgart 1893": { "Principal": "Branco", "Goleiro": "Amarelo" },
-  "IK Sirius": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Excelsior Rotterdam": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "VfL Bochum": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Atalanta Bergamasca Calcio S.p.a.": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Idrottsföreningen Kamraterna Göteborg": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Al-Ittihad Football Club": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Futebol Clube de Arouca": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Sydney Football Club": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Columbus Crew": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "FK Teplice, a.s.": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "SK Poltava": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Atlético Nacional": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Verein für Leibesübungen Wolfsburg": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Gençlerbirliği Spor Kulübü": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Eskisehirspor": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Racing Club de Lens": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "St. Louis City Soccer Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Mazatlán Futbol Club": { "Principal": "Violeta", "Goleiro": "Preto" },
-  "Urawa Red Diamonds": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Club Atlético Banfield": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Denizlispor": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Albirex Niigata": { "Principal": "Laranja", "Goleiro": "Preto" },
-  "Metalist Kharkiv": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Epicentr Dunaivtsi": { "Principal": "Branco", "Goleiro": "Preto" },
-  "Wellington Phoenix Football Club": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Shonan Bellmare": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "FK Karpaty Lviv": { "Principal": "Verde", "Goleiro": "Preto" },
-  "EA Guingamp": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Club de Futbol Rojinegros S.A. de C.V.": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Sportverein Werder Bremen von 1899": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Chievo Verona": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Livyi Bereg Kyiv": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Fodbold Club Midtjylland": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "MKE Ankaragücü": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Sport Club do Recife": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Crystal Palace Football Club": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Adelaide United Football Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "FK Kudrivka-1": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Red Bull Bragantino": { "Principal": "Branco", "Goleiro": "Amarelo" },
-  "Widzew Łódź Spółka Akcyjna": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "FC Dallas": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Asociația Fotbal Club Botoșani": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Fudbalski Klub Javor Matis Ivanjica": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Zirka Kropyvnytskyi": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "1. Fußballclub Union Berlin": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Deportivo de La Coruña": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Frosinone Calcio": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Arsenal Kyiv": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "FC Verbroedering Denderhoutem Denderleeuw Eendracht Hekelgem": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Hibernian Football Club": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Al-Hazem Sport Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Al-Kholood Club": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Houston Dynamo": { "Principal": "Laranja", "Goleiro": "Amarelo" },
-  "Istanbulspor": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Club Atlético Platense": { "Principal": "Marrom", "Goleiro": "Amarelo" },
-  "Fulham Football Club": { "Principal": "Branco", "Goleiro": "Preto" },
-  "Футбольный клуб \"Локомотив\" Москва": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "FC Thun": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Real Club Celta de Vigo S. A. D.": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "FC Viktoria Plzeň, a.s.": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Yokohama FC": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Fotbal Club Petrolul Ploiești": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Asociația Fotbal Club UTA Arad": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Avispa Fukuoka": { "Principal": "Azul", "Goleiro": "Preto" },
-  "Kawasaki Frontale": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Seattle Sounders FC": { "Principal": "Verde", "Goleiro": "Preto" },
-  "AO FK Zenit Sankt-Peterburg": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "RKS Raków Częstochowa SA": { "Principal": "Vermelho", "Goleiro": "Preto" },
-  "Koninklijke Voetbal Club Westerlo": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Montpellier HSC": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Perth Glory Football Club": { "Principal": "Violeta", "Goleiro": "Preto" },
-  "CF União Madeira (-2021)": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Club de Regatas Vasco da Gama": { "Principal": "Preto", "Goleiro": "Verde" },
-  "Moreirense Futebol Clube": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Deportivo Pereira": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Clube Desportivo Nacional": { "Principal": "Preto", "Goleiro": "Verde" },
-  "West Bromwich Albion": { "Principal": "Azul", "Goleiro": "Amarelo" },
-  "Al-Shabab Club": { "Principal": "Branco", "Goleiro": "Preto" },
-  "Manchester United Football Club": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Motherwell Football Club": { "Principal": "Amarelo", "Goleiro": "Preto" },
-  "Association Football Club Bournemouth": { "Principal": "Vermelho", "Goleiro": "Amarelo" },
-  "Córdoba CF": { "Principal": "Verde", "Goleiro": "Preto" },
-  "Football Club de Nantes": { "Principal": "Verde", "Goleiro": "Amarelo" },
-  "Deportivo Cali": { "Principal": "Verde", "Goleiro": "Preto" },
-  "NK Istra 1961": { "Principal": "Verde", "Goleiro": "Amarelo" }
+  "Independiente Medellín": {
+    "Principal": "#e53935",
+    "Goleiro": "#43a047"
+  },
+  "Watford FC": {
+    "Principal": "#fdd835",
+    "Goleiro": "#43a047"
+  },
+  "Halmstads BK": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Sarpsborg 08 Fotballforening": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Cerezo Osaka": {
+    "Principal": "#ec407a",
+    "Goleiro": "#212121"
+  },
+  "Sociedade Esportiva Palmeiras": {
+    "Principal": "#43a047",
+    "Goleiro": "#757575"
+  },
+  "Bologna Football Club 1909": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Club Atlético Vélez Sársfield": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#43a047"
+  },
+  "Asociación Atlética Argentinos Juniors": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Luton Town": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "Reading FC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "UC Sampdoria": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#43a047"
+  },
+  "Queens Park Rangers": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Olympique Lyonnais": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "Djurgårdens Idrottsförening": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Calcio Como": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Kasımpaşa A.Ş.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Valencia Club de Fútbol S. A. D.": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "Esporte Clube Juventude": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "SV Darmstadt 98": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Villarreal Club de Fútbol S.A.D.": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Deportes Tolima": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#fdd835"
+  },
+  "CA San Martín (San Juan)": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Aalborg BK": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Bryne FK": {
+    "Principal": "#e53935",
+    "Goleiro": "#1e88e5"
+  },
+  "Hammarby IF": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Los Angeles Galaxy": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "S-Pulse": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "Viborg Fodsports Forening": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Nagoya Grampus Eight": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FC Zorya Lugansk": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Wigan Athletic": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Sporting Clube de Braga": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Lille Olympique Sporting Club": {
+    "Principal": "#0d47a1",
+    "Goleiro": "#fdd835"
+  },
+  "FK Rostov": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Málaga CF": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#43a047"
+  },
+  "Vitória Setúbal FC": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Fortaleza Esporte Clube": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Alkmaar Zaanstreek": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Panthessalonikios Athlitikos Omilos Konstantinoupoliton": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Idrottsföreningen Brommapojkarna": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "ESTAC Troyes": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Royal Antwerp Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Clube do Remo": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Arsenal Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Sportsklubben Brann": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Idrottsföreningen Elfsborg": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "AVS Futebol SAD": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Club de Gimnasia y Esgrima La Plata": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#43a047"
+  },
+  "Deportivo Alavés S. A. D.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "BK Häcken": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Huddersfield Town": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Mordovia Saransk (-2020)": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Ural Yekaterinburg": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "Al-Hilal Saudi Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Toronto FC": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Örgryte IS": {
+    "Principal": "#e53935",
+    "Goleiro": "#1e88e5"
+  },
+  "NK Lokomotiva Zagreb": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Norwich City": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Fakel Voronezh": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Alanyaspor": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "Burnley Football Club": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#43a047"
+  },
+  "ASFC Buzau (2016-2025)": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Beşiktaş Jimnastik Kulübü": {
+    "Principal": "#212121",
+    "Goleiro": "#fdd835"
+  },
+  "Impulsora del Deportivo Necaxa S.A. de C.V.": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "AC Ajaccio": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Brentford Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "San Diego Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Football Club Lorient-Bretagne Sud": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "AS Nancy-Lorraine": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Nîmes Olympique": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "SM Caen": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Independiente Santa Fe": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Giresunspor": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Silkeborg Idrætsforening": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético Tigre": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Auckland Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Koninklijke Racing Club Genk": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Junior FC": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Torpedo Moscow": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Falkirk Football & Athletic Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Associazione Sportiva Roma": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Kocaelispor Kulübü": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "FK Dinamo Moskva": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "US Livorno 1915": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Club Sportivo Independiente Rivadavia": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Sportklub Puntigamer Sturm Graz": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Club Atlético Aldosivi": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Girona Fútbol Club S. A. D.": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Club Atlético Independiente de Avellaneda": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Östers IF": {
+    "Principal": "#e53935",
+    "Goleiro": "#1e88e5"
+  },
+  "Brighton and Hove Albion Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Rangers Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Livingston Football Club": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Volga Nizhniy Novgorod (- 2016)": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "CD Leganés": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "KAS Eupen": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Club Atlético Sarmiento": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Colorado Rapids": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#fdd835"
+  },
+  "CD Godoy Cruz Antonio Tomba": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Çaykur Rizespor Kulübü": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "ADO Den Haag": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Prins Hendrik Ende Desespereert Nimmer Combinatie Zwolle": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "SC Paderborn 07": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "AO Xanthi": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "FC Emmen": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético Newell’s Old Boys": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Tromsø Idrettslag": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético de Madrid S.A.D.": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Parma Calcio 1913": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "CS Marítimo": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Heracles Almelo": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Futbol Club Barcelona": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Nooit Opgeven Altijd Doorzetten Aangenaam Door Vermaak En Nuttig Door Ontspanning Combinatie Breda": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "SK Dynamo Ceske Budejovice": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "FK Jablonec a.s.": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "SC Cambuur Leeuwarden": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Club Tijuana Xoloitzcuintles de Caliente": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "MFK Karvina": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Siena FC": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Cagliari Calcio": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Fußballklub Austria Wien": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#212121"
+  },
+  "Club Santos Laguna S. A. de C. V.": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Galatasaray Spor Kulübü": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "RAEC Mons (- 2015)": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Amiens SC": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Thonon Évian Grand Genève FC": {
+    "Principal": "#ec407a",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético Rosario Central": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Real Zaragoza": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Angers Sporting Club de l'Ouest": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Stade Reims": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Valenciennes FC": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "VVV-Venlo": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Cesena FC": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "Sportclub Telstar": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "Go Ahead Eagles": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "SC Beira-Mar": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Hrvatski Nogometni Klub Rijeka": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Racing Club Asociación Civil de Avellaneda": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FC Dordrecht": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Club Atlético Tucumán": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FC Orenburg": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Asociación Atlética Estudiantes": {
+    "Principal": "#4fc3f7",
+    "Goleiro": "#212121"
+  },
+  "Boyacá Chicó FC": {
+    "Principal": "#424242",
+    "Goleiro": "#fdd835"
+  },
+  "Grupo Desportivo Estoril Praia": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Göztepe Sportif Yatırımlar A.Ş.": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Unión Magdalena": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Club Atlético Gimnasia y Esgrima de Mendoza": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "Tottenham Hotspur Football Club": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "FK Pardubice": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Bayer 04 Leverkusen Fußball": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Real Betis Balompié S.A.D.": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Kardemir Karabükspor": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Dundee United Football Club": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "Samsunspor": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Fudbalski Klub Spartak Ždrepčeva krv": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Elche Club de Fútbol S.A.D.": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "SD Eibar": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Koninklijke Atletiek Associatie Gent": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Fudbalski klub Crvena zvezda Beograd": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Termalica Bruk-Bet Nieciecza Klub Sportowy": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "Borussia Dortmund": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Association sportive de Monaco Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Desna Chernigiv": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FK Sevastopol (- 2014)": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "PFK Stal Kamyanske (-2018)": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Catania FC": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Fußball-Club Augsburg 1907": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FK Krasnodar": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Granada CF": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Zagłębie Lubin Spółka Akcyjna": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "Panionios Athens": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Sportklub Rapid": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Royal Charleroi Sporting Club": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Al-Wehda FC": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Odense Boldklub": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Internacional de Bogotá": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético San Lorenzo de Almagro": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Associação Chapecoense de Futebol": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Borussia Verein für Leibesübungen 1900 Mönchengladbach": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Southampton FC": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Deportivo Toluca Futbol Club, S. A. de C. V.": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "PFK Lviv": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Instituto Atlético Central Córdoba": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FC Oleksandriya": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Al-Ahli Saudi Football Club": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Nassr Football Club": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético Boca Juniors": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Hvidovre IF": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FC Hradec Králové a.s.": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Brescia Calcio": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Football Club København": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "Roda JC Kerkrade": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Rosenborg Ballklub": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Vendsyssel FF": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "Jeju SK Football Club": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "AC Sparta Praha, a. s.": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Akhisarspor": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Asociación de Fomento Deportivo Riestra Barrio Colón": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Yeni Malatyaspor": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Sport Club Corinthians Paulista": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Bursaspor": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Football Club Utrecht": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FC Vestsjaelland": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Football Club Groningen": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Ceará Sporting Club": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "1. Fußballclub Heidenheim 1846": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Lierse SK (- 2018)": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Rionegro Águilas": {
+    "Principal": "#ffb300",
+    "Goleiro": "#212121"
+  },
+  "Brøndby Idrætsforening": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético Huracán": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Balikesirspor": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Veria NPS": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "FK Jedinstvo Ub": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético River Plate": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "Grêmio Foot-Ball Porto Alegrense": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Kristiansund Ballklubb": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Wisła Płock Spółka Akcyjna": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Esporte Clube Vitória": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Gangwon Football Club": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "Fußballclub Blau-Weiß Linz": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "San Jose Earthquakes": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "AO Platanias": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Football Club Mito HollyHock": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Santos Futebol Clube": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "FC Helsingör": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Fagiano Okayama Sports Club": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#fdd835"
+  },
+  "SK Tavriya Simferopol ( - 2022)": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "HNK Sibenik": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Raed SFC": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Unione Sportiva Cremonese S.p.A.": {
+    "Principal": "#757575",
+    "Goleiro": "#212121"
+  },
+  "Kashima Antlers FC": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Stal Mielec": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Club Brugge Koninklijke Voetbalvereniging": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Swansea City": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "Alianza FC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Elazigspor": {
+    "Principal": "#880e4f",
+    "Goleiro": "#212121"
+  },
+  "Konyaspor": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Eintracht Braunschweig": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Jagiellonia-Bialystok Sportowa Spólka Akcyjna": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "SK Sigma Olomouc, a.s.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "KFUM-Kameratene Oslo": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FK Spartak Moskva": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Orduspor": {
+    "Principal": "#661197",
+    "Goleiro": "#212121"
+  },
+  "Feyenoord Rotterdam": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "RKC Waalwijk": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Millonarios FC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "CD América de Cali": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Zelvia": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "V-Varen Nagasaki": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Olimpik Donetsk": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "NK Slaven Belupo Koprivnica": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Real Club Deportivo Mallorca S.A.D.": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Altay SK": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "KKS Lech Poznań Spółka Akcyjna": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Sivasspor": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "RasenBallsport Leipzig": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Viking Fotballklubb": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Eintracht Frankfurt Fußball AG": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Club Social y Deportivo Defensa y Justicia": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Club de Fútbol Monterrey Rayados A.C.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "PFK CSKA Moskva": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "AC Horsens": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético Belgrano": {
+    "Principal": "#4fc3f7",
+    "Goleiro": "#fdd835"
+  },
+  "Fussballclub Winterthur": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Vitória Sport Clube": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "Clube Desportivo Santa Clara": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Gil Vicente Futebol Clube": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Ümraniyespor": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Rio Ave Futebol Clube": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Club Football Estrela da Amadora": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Kuban Krasnodar (-2018)": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Olympique de Marseille": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "D.C. United": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Athlitiki Enosi Konstantinoupoleos": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Wattener Sportgemeinschaft Swarovski Tirol": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Sporting Gijón": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Inverness Caledonian Thistle FC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "B SAD": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "HNK Gorica": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Fluminense Football Club": {
+    "Principal": "#8d6e63",
+    "Goleiro": "#43a047"
+  },
+  "Karpaty Lviv (-2021)": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Real Oviedo S.A.D.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Boavista FC": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Club Atlético Barracas Central": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Genoa Cricket and Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Futebol Clube de Alverca": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Philadelphia Union": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Legia Warszawa Spółka Akcyjna": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Kilmarnock Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Melbourne City Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FC St. Gallen 1879": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "St. Johnstone FC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FC Basel 1893 AG": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "FC Zürich": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Al-Qadsiah Saudi Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "NK Veres Rivne": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Panathinaikos Athlitikos Omilos": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Sportvereinigung Ried 1912": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Idrettsklubben Start": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "PAS Giannina": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "APO Levadiakos Football Club": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Cádiz CF": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Holstein Kiel": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "PFK Krylya Sovetov Samara": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Sanfrecce Hiroshima": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#fdd835"
+  },
+  "FC Rubin Kazan": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FC Bayern München": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Anzhi Makhachkala ( -2022)": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Spartak Vladikavkaz (-2020)": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "RFC Seraing": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Mjällby Almänna Idrottsförening": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Allmänna Idrottsklubben": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "SPAL": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Fateh Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Oud-Heverlee Leuven": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "Stade Rennais Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Vorskla Poltava": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "FK Baltika": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Ross County FC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Verona Hellas Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Partick Thistle FC": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "FK Haugesund": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Fodbold Club Nordsjælland": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Metalurg Donetsk (- 2015)": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FC Lugano": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "FK Ufa": {
+    "Principal": "#661197",
+    "Goleiro": "#fdd835"
+  },
+  "Manchester City Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Strømsgodset IF": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Gaziantep Futbol Kulübü A.Ş.": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "IFK Norrköping": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "KV Oostende": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "SK Beveren": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "SK Austria Klagenfurt": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#fdd835"
+  },
+  "Club Estudiantes de La Plata": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Al-Taawoun Football Club": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Puszcza Niepolomice": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Sunderland Association Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "AEL Kalloni": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Everton Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Association de la Jeunge auxerroise": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "AC Monza": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Delfino Pescara 1936": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Royal Excel Mouscron (-2022)": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Sport Lisboa e Benfica": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Ankaraspor": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Dijon FCO": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Asociația Fotbal Club Unirea 04 Slobozia": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "F.C.V. Farul Constanța SA": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Académica Coimbra": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "FC Paços de Ferreira": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Incheon United Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Hamilton Academical FC": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "1. Fußball-Club Köln": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Hull City": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "SC Fotbal Club FCSB SA": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Athlitiki Enosi Kifisias": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Royal Standard Club de Liège": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Sportclub Heerenveen": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "APS Atromitos Athinon": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Athens Kallithea": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Gwangju Football Club": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Liverpool Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Riyadh Saudi Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Football Club Pohang Steelers": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "SC Dinamo 1948 SA": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético Central Córdoba": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Fudbalski klub TSC Bačka Topola": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Grazer Athletiksport Klub 1902": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Suwon FC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Football Club Twente": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Fortaleza CEIF": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Kayserispor Kulübü": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Pendikspor": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "FC Sion": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Fudbalski Klub IMT Novi Beograd": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Mersin Talimyurdu SK": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Yverdon Sport FC": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Najma Sport Club": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Morski Klub Sportowy Pogoń Szczecin": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Casa Pia Atlético Clube": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "NK Osijek s.d.d.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FC Schalke 04": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Clube Atlético Mineiro": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "UD Almería": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético Osasuna": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "GD Chaves": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FC Penafiel": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Futebol Clube de Famalicão": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético Lanús": {
+    "Principal": "#8d6e63",
+    "Goleiro": "#fdd835"
+  },
+  "Fudbalski klub Radnik Surdulica": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Desportivo Aves (- 2020)": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "CD Feirense": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Sporting Clube de Portugal": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Levante Unión Deportiva S.A.D.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Futbolniy Klub Dynamo Kyiv": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "Panserraikos Serres": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Dnipro Dnipropetrovsk (-2020)": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "ACSM Politehnica Iasi": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Esbjerg fB": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Football Club de Metz": {
+    "Principal": "#8d6e63",
+    "Goleiro": "#212121"
+  },
+  "Neom Sports Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Fußball-Club St. Pauli von 1910": {
+    "Principal": "#795548",
+    "Goleiro": "#212121"
+  },
+  "Sheffield United": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Sportvereniging Zulte Waregem": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Spezia Calcio": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "Clermont Foot 63": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Motor Lublin Spółka Akcyjna": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Lillestrøm Sportsklubb": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Ulsan Hyundai Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Yellow-Red Koninklijke Voetbalclub Mechelen": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Sportclub Rheindorf Altach": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "GFC Ajaccio": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Bucheon Football Club 1995": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FK Kryvbas Kryvyi Rig": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Fenerbahçe Spor Kulübü": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Rotor Volgograd": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Western Sydney Wanderers": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "IFK Värnamo": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Club de Futbol América S. A. de C. V.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Degerfors IF": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Kalmar Fotbollförening": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Real Valladolid CF": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#fdd835"
+  },
+  "Rayo Vallecano de Madrid S. A. D.": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Sevilla Fútbol Club S.A.D.": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Lyngby Boldklub": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "SKA Khabarovsk": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Tom Tomsk": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "FK Tekstilac Odzaci": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Aberdeen Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Getafe Club de Fútbol S. A. D. Team Dubai": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "The Celtic Football Club": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Club de Fútbol Cruz Azul S.A. de C.V.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Enisey Krasnoyarsk": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FC Khimki (-2025)": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "RFK Akhmat Grozny": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Asociația Futball Klub Csíkszereda Miercurea Ciuc": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Arsenal Tula": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Tokyo Verdy": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Fotbal Club Metaloglobus București SA": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FC Baník Ostrava a.s.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "West Ham United Football Club": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#212121"
+  },
+  "Fortuna Düsseldorf": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "US Salernitana 1919": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Yokohama Marinos": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Eindhovense Voetbalvereniging Philips Sport Vereniging": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Fredrikstad Fotballklubb": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Adana Demirspor": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Fortuna Sittardia Combinatie": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Llaneros FC": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Mirasol Futebol Clube": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Football Club Anyang": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#fdd835"
+  },
+  "1. Fußball- und Sportverein Mainz 05": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "RAAL La Louvière": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "FK Obolon Kyiv": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Stade brestois 29": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Club Atlético Talleres": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Royale Union Saint-Gilloise": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Orobah FC": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Rakuten Vissel Kobe": {
+    "Principal": "#8d6e63",
+    "Goleiro": "#fdd835"
+  },
+  "Erzurumspor FK": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Società Sportiva Lazio S.p.A.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Leeds United Association Football Club": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "PAS Lamia 1964": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1.FC Nuremberg": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FC Girondins Bordeaux": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Klub Sportowy Lechia Gdańsk": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "New York City Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Club Atlético de San Luis": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Willem II Tilburg": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Promotora del Club Pachuca S. A. de C. V.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FC Tosno (-2018)": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Aston Villa Football Club": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#fdd835"
+  },
+  "Club de Foot Montréal": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "U Craiova 1948 Club Sportiv SA": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "FC Crotone": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Fußballclub Red Bull Salzburg": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Hamburger Sport Verein": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Udinese Calcio": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "AC Carpi": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "PFK Tambov (-2021)": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FK Sochi": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Beerschot VA": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#212121"
+  },
+  "Asociația Clubul Sportiv Campionii Fotbal Club Argeș": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#fdd835"
+  },
+  "Amkar Perm": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Linzer Athletik-Sport-Klub": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Toulouse Football Club": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#fdd835"
+  },
+  "Torino Calcio": {
+    "Principal": "#8d6e63",
+    "Goleiro": "#212121"
+  },
+  "Olympique Gymnaste Club Nice Côte d'Azur": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Benevento Calcio": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Pisa Sporting Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Real Madrid Club de Fútbol": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "GNK Dinamo Zagreb": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Hannover 96": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Klub Sportowy Górnik Zabrze Sportowa Spółka Akcyjna": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "Sporting Kansas City": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Portland Timbers": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "SC Farense": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Heart of Midlothian Football Club": {
+    "Principal": "#8d6e63",
+    "Goleiro": "#fdd835"
+  },
+  "Associazione Calcio Fiorentina": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#212121"
+  },
+  "Hamarkameratene": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Chicago Fire Soccer Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FC Luzern": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Hertha BSC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Bodrum FK": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Apollon Smyrnis": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Vejle Boldklub": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "RZ Pellets Wolfsberger Athletiksport Club": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Turn- und Sportverein Egger Glas Hartberg": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "HNK Hajduk Split": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Fudbalski Klub Vojvodina": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Volyn Lutsk": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Trabzonspor Kulübü": {
+    "Principal": "#880e4f",
+    "Goleiro": "#fdd835"
+  },
+  "FK Dukla Praha a.s.": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Berner Sport Club Young Boys": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Fotbal Club Rapid 1923 SA": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#fdd835"
+  },
+  "HNK Vukovar 1991": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Orlando City Soccer Club": {
+    "Principal": "#661197",
+    "Goleiro": "#fdd835"
+  },
+  "Palermo FC": {
+    "Principal": "#ec407a",
+    "Goleiro": "#212121"
+  },
+  "Football Club Internazionale Milano S.p.A.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Athlitiki Enosi Larisas": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#212121"
+  },
+  "Fudbalski Klub Novi Pazar": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "FK Radnički 1923 Kragujevac": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Saint Mirren Football Club": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Nijmegen Eendracht Combinatie": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Sparta Rotterdam": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Iraklis Thessaloniki": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "UD Las Palmas": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Koninklijke Sint-Truidense Voetbalvereniging": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "SC Olhanense": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "FC Ingolstadt 04": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "FK Kolos Kovalivka": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "FC Rukh Lviv": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Fútbol Club Juárez": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Ingulets Petrove": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Club León Fútbol Club": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "SC Oţelul Galaţi": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Malmö Fotbollförening": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Querétaro Fútbol Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FK Nizhny Novgorod": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "KSC Lokeren (- 2020)": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Vitesse Arnhem": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Associazione Calcio Milan": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Fotballklubben Bodø/Glimt": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Grasshopper Club Zürich": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Fayha FC": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "Damac Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Juventus Football Club": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Dundee Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Stoke City": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Atlanta United Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Football Club Cincinnati": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Los Angeles Football Club": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Cercle Brugge Koninklijke Sportvereniging": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Västerås Sportklubb FK": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "AOK Kerkyra": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "GS Ergotelis": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Gaziantepspor (- 2020)": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Football Club Lausanne-Sport": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Omladinski fudbalski klub Beograd": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Turn- und Sportgemeinschaft 1899 Hoffenheim Fußball-Spielbetriebs": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "SD Huesca": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "FK Polissya Zhytomyr": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "S. A. F. Botafogo": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "RWD Molenbeek": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Wolverhampton Wanderers Football Club": {
+    "Principal": "Ouro",
+    "Goleiro": "#212121"
+  },
+  "Sepsi OSK Sf. Gheorghe": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Ionikos Nikeas": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "1. FC Slovácko": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "FC Trinity Zlin": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "FK Mladá Boleslav, a.s.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Newcastle United Jets Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "TOV FK Metalist 1925 Kharkiv": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Niki Volou": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Minnesota United FC": {
+    "Principal": "#757575",
+    "Goleiro": "#fdd835"
+  },
+  "Aalesunds Fotballklubb": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "Beerschot AC": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#fdd835"
+  },
+  "Club de Futbol Puebla de La Franja": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Klub Sportowy Cracovia Spółka Akcyjna": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Randers Fodbold Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Fodbold Club Fredericia": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Royal Sporting Club Anderlecht": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#212121"
+  },
+  "Asociația Fotbal Club Hermannstadt": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Sønderjyske Fodbold": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Hobro IK": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Paris Saint-Germain Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "São Paulo Futebol Clube": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Antalyaspor": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Kyoto Purple Sanga": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#212121"
+  },
+  "Železničar Pančevo": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "SC Bastia": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Gamba Osaka": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "NK Varazdin": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Adanaspor": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "Sport-Club Freiburg": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "KV Kortrijk": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Cardiff City": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Aris Thessalonikis": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "SC Dnipro-1": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Venezia FC": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Al-Khaleej Club (Saihat)": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Cruzeiro Esporte Clube": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Volou Neos Podosferikos Syllogos": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Servette Football Club 1890 SA": {
+    "Principal": "#8d6e63",
+    "Goleiro": "#fdd835"
+  },
+  "AFC Ajax Amsterdam": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Morski Związkowy Klub Sportowy Arka Gdynia Spółka Akcyjna": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Miejski Klub Sportowy Korona Kielce Spółka Akcyjna": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Gliwicki Klub Sportowy Piast Spółka Akcyjna": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Clube de Regatas do Flamengo": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "AS Saint-Étienne": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "FC Minaj": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Società Sportiva Calcio Napoli": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "SK Slavia Praha, a.s.": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Athletic Club Bilbao": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Red Bull New York": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "New England Revolution": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "LNZ Cherkasy": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Chelsea Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Vancouver Whitecaps FC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Nashville SC": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Sandefjord Fotball": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Middlesbrough FC": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Metalist Kharkiv (- 2016)": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Panetolikos Agrinio": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "De Graafschap Doetinchem": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Asociația Sportivă Fotbal Club Universitatea Cluj": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "GKS GieKSa Katowice Spółka Akcyjna": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Atlético Bucaramanga": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Foundation Coorperation Hana Financial Group Inc. Football Club": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "SpVgg Greuther Fürth": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Football Club Seoul": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Jeonbuk Hyundai Motors": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Daegu FC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Gimcheon Sangmu Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Omilos Filathlon Irakliou FC": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Unione Sportiva Sassuolo Calcio": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "FC Shakhtar Donetsk": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "Sport Club Internacional": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Fudbalski klub Čukarički Beograd": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "Fudbalski Klub Mladost Lučani": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Tokyo Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Hitachi Kashiwa Reysol": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Real Salt Lake": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Fatih Karagümrük Sportif Faaliyetler San. Tic. A.Ş.": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Racing Club de Strasbourg Alsace": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "A.G.S Asteras Tripolis": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Fudbalski Klub Partizan Beograd": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Club Deportivo Guadalajara S. A. de C. V.": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "JEF United": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Ipswich Town": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Aarhus Gymnastik Forening": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "Clube Atlético Paranaense": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Real Sociedad de Fútbol S.A.D.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Olympiakos Syndesmos Filathlon Peiraios": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "CF Os Belenenses": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Molde Fotballklubb": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "İstanbul Başakşehir Futbol Kulübü": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Kayseri Erciyesspor": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "FC Vizela": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Club Internacional de Fútbol Miami": {
+    "Principal": "#ec407a",
+    "Goleiro": "#fdd835"
+  },
+  "Central Coast Mariners Football Club": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "FC Slovan Liberec": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Once Caldas": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "Chornomorets Odesa": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "FK Mariupol": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Metalurg Zaporizhya (-2016)": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Goverla Uzhgorod (- 2016)": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Melbourne Victory FC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Göteborgs Atlet- och Idrottssällskap": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Nottingham Forest Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Club Tigres UANL Sinergia Deportiva S.A. de C.V.": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético Unión": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Western United FC": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Macarthur South West Sydney (A-League)": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Envigado FC": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "Reial Club Deportiu Espanyol de Barcelona S.A.D.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Bohemians Praha 1905, a.s.": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Radomiak S.A.": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Eyüp Spor Kulübü": {
+    "Principal": "Lavanda",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Okhdood Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Clube Desportivo de Tondela": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Panthrakikos Komotini": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Akron Togliatti": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Futebol Clube do Porto": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Almere City FC": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Austin FC": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Football Club Volendam": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "Portimonense SC": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Le Havre Athletic Club": {
+    "Principal": "#0d47a1",
+    "Goleiro": "#fdd835"
+  },
+  "FC Empoli": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "FC Sochaux-Montbéliard": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Dinamo Makhachkala": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Fudbalski Klub Radnički Niš": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Slask Wroclaw": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Vålerengens Idrettsforening": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Newcastle United Football Club": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Club Universidad Nacional A. C.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Ettifaq Football Club": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Coritiba Foot Ball Club": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Fotbal Club CFR 1907 Cluj SA": {
+    "Principal": "#880e4f",
+    "Goleiro": "#212121"
+  },
+  "Hatayspor": {
+    "Principal": "#880e4f",
+    "Goleiro": "#fdd835"
+  },
+  "Brisbane Roar FC": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "Charlotte Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Fudbalski klub Napredak Kruševac": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Verein für Bewegungsspiele Stuttgart 1893": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "IK Sirius": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Excelsior Rotterdam": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "VfL Bochum": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Atalanta Bergamasca Calcio S.p.a.": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Idrottsföreningen Kamraterna Göteborg": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Ittihad Football Club": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Futebol Clube de Arouca": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Sydney Football Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Columbus Crew": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "FK Teplice, a.s.": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "SK Poltava": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Atlético Nacional": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Verein für Leibesübungen Wolfsburg": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Gençlerbirliği Spor Kulübü": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Eskisehirspor": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Racing Club de Lens": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "St. Louis City Soccer Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Mazatlán Futbol Club": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#212121"
+  },
+  "Urawa Red Diamonds": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Club Atlético Banfield": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Denizlispor": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Albirex Niigata": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "Metalist Kharkiv": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Epicentr Dunaivtsi": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "Wellington Phoenix Football Club": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Shonan Bellmare": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "FK Karpaty Lviv": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "EA Guingamp": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Club de Futbol Rojinegros S.A. de C.V.": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Sportverein Werder Bremen von 1899": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Chievo Verona": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Livyi Bereg Kyiv": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Fodbold Club Midtjylland": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "MKE Ankaragücü": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Sport Club do Recife": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Crystal Palace Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Adelaide United Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "FK Kudrivka-1": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Red Bull Bragantino": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "Widzew Łódź Spółka Akcyjna": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "FC Dallas": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Asociația Fotbal Club Botoșani": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Fudbalski Klub Javor Matis Ivanjica": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Zirka Kropyvnytskyi": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "1. Fußballclub Union Berlin": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Deportivo de La Coruña": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Frosinone Calcio": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Arsenal Kyiv": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "FC Verbroedering Denderhoutem Denderleeuw Eendracht Hekelgem": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Hibernian Football Club": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Al-Hazem Sport Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Kholood Club": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Houston Dynamo": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "Istanbulspor": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Club Atlético Platense": {
+    "Principal": "#795548",
+    "Goleiro": "#fdd835"
+  },
+  "Fulham Football Club": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "Футбольный клуб \"Локомотив\" Москва": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "FC Thun": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Real Club Celta de Vigo S. A. D.": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "FC Viktoria Plzeň, a.s.": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Yokohama FC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Fotbal Club Petrolul Ploiești": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Asociația Fotbal Club UTA Arad": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Avispa Fukuoka": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "Kawasaki Frontale": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Seattle Sounders FC": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "AO FK Zenit Sankt-Peterburg": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "RKS Raków Częstochowa SA": {
+    "Principal": "#e53935",
+    "Goleiro": "#212121"
+  },
+  "Koninklijke Voetbal Club Westerlo": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Montpellier HSC": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Perth Glory Football Club": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#212121"
+  },
+  "CF União Madeira (-2021)": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Club de Regatas Vasco da Gama": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "Moreirense Futebol Clube": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Deportivo Pereira": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Clube Desportivo Nacional": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "West Bromwich Albion": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "Al-Shabab Club": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "Manchester United Football Club": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Motherwell Football Club": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "Association Football Club Bournemouth": {
+    "Principal": "#e53935",
+    "Goleiro": "#fdd835"
+  },
+  "Córdoba CF": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "Football Club de Nantes": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "Deportivo Cali": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "NK Istra 1961": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  }
 }
