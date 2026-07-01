@@ -683,6 +683,8 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         "headVariant": head,
         "expressionVariant": expression,
         "clothingColor": clothing_color,
+        "accessoriesProbability": "0",
+        "maskProbability": "0",
         "facialHairProbability": "0",
         "facialHairVariant": "none"
     })
