@@ -418,6 +418,35 @@ def get_club_primary_color_hex(club_name: str | None, club_colors: dict | None =
     return color_value
 
 
+def get_club_goalkeeper_color_hex(club_name: str | None, club_colors: dict | None = None) -> str | None:
+    """Return the goalkeeper uniform color as a hex code for frontend consumption."""
+    if pd.isna(club_name) or not club_name:
+        return None
+
+    if club_colors is None:
+        club_colors = load_club_colors()
+
+    if not club_colors:
+        return None
+
+    club_data = club_colors.get(club_name)
+    if not isinstance(club_data, dict):
+        return None
+
+    color_value = club_data.get("Goleiro")
+    if not color_value:
+        return None
+
+    if not isinstance(color_value, str):
+        return None
+
+    color_value = color_value.strip()
+    if not color_value.startswith("#"):
+        color_value = f"#{color_value}"
+
+    return color_value
+
+
 def update_clothing_color_in_url(url: str, new_clothing_color: str) -> str:
     """Update only the clothingColor parameter in an existing DiceBear URL."""
     if "?" not in url:
@@ -1017,7 +1046,13 @@ def import_reference_files(conn: sqlite3.Connection) -> None:
                     return None
                 return get_club_primary_color_hex(club_name, club_colors)
 
+            def get_club_goalkeeper_color(club_name: str) -> str:
+                if pd.isna(club_name):
+                    return None
+                return get_club_goalkeeper_color_hex(club_name, club_colors)
+
             df["club_color"] = df["name"].apply(get_club_color)
+            df["goalkeeper_uniform_color"] = df["name"].apply(get_club_goalkeeper_color)
         
         import_dataframe_to_sql(conn, df, table)
 
