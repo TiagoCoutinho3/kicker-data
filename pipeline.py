@@ -47,13 +47,14 @@ TABLES: list[tuple[str, str]] = [
     ("club_games_clean", "club_games"),
 ]
 
-INDEXES: list[tuple[str, str, str]] = [
+INDEXES: list[tuple[str, str, str | tuple[str, ...]]] = [
     ("idx_players_player_id", "players", "player_id"),
     ("idx_games_game_id", "games", "game_id"),
     ("idx_games_competition_id", "games", "competition_id"),
     ("idx_appearances_player_id", "appearances", "player_id"),
     ("idx_appearances_game_id", "appearances", "game_id"),
     ("idx_appearances_competition_id", "appearances", "competition_id"),
+    ("idx_appearances_club_date", "appearances", ("player_club_id", "date")),
     ("idx_lineups_player_id", "game_lineups", "player_id"),
     ("idx_lineups_game_id", "game_lineups", "game_id"),
     ("idx_events_player_id", "game_events", "player_id"),
@@ -1059,7 +1060,11 @@ def import_reference_files(conn: sqlite3.Connection) -> None:
 
 def create_indexes(conn: sqlite3.Connection) -> None:
     for name, table, column in INDEXES:
-        conn.execute(f"CREATE INDEX IF NOT EXISTS {name} ON {table} ({column})")
+        if isinstance(column, tuple):
+            columns_str = ", ".join(column)
+        else:
+            columns_str = column
+        conn.execute(f"CREATE INDEX IF NOT EXISTS {name} ON {table} ({columns_str})")
 
 
 def print_db_summary(conn: sqlite3.Connection) -> None:
