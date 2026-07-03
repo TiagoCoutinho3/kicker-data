@@ -224,7 +224,7 @@ def process_raw_data() -> dict:
 
     # Load games
     log("Carregando games.csv...")
-    games = pd.read_csv(RAW_DIR / "games.csv", usecols=["game_id", "competition_id"])
+    games = pd.read_csv(RAW_DIR / "games.csv")
     games_before = len(games)
 
     # Build valid player and game IDs
