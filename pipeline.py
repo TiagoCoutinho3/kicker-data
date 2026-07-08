@@ -16,6 +16,7 @@ RAW_DIR = Path("raw")
 CLEAN_DIR = Path("clean")
 DB_PATH = CLEAN_DIR / "football.db"
 CLUB_COLORS_FILE = Path("club_colors.json")
+CLUB_NAMES_FILE = Path("club_names.json")
 
 # Constants from process.py
 BIG_COMPETITIONS = {"CL", "EL", "WC", "EC", "CLI", "WCWC", "FIWC", "EURO"}
@@ -338,6 +339,31 @@ def load_club_colors() -> dict:
         return {}
     with open(CLUB_COLORS_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_club_names() -> dict:
+    """Load club names from JSON file and convert to dict mapping club_id -> name."""
+    if not CLUB_NAMES_FILE.exists():
+        log(f"Warning: {CLUB_NAMES_FILE} not found. Using original club names.")
+        return {}
+    with open(CLUB_NAMES_FILE, "r", encoding="utf-8") as f:
+        club_names_list = json.load(f)
+        # Convert array of objects to dict: {club_id: name}
+        return {item["club_id"]: item["name"] for item in club_names_list}
+
+
+def get_club_common_name(club_id: int | None, club_names: dict | None = None) -> str | None:
+    """Return the common name for a club given its club_id."""
+    if pd.isna(club_id) or club_id is None:
+        return None
+
+    if club_names is None:
+        club_names = load_club_names()
+
+    if not club_names:
+        return None
+
+    return club_names.get(club_id)
 
 
 def load_existing_avatars_from_db() -> dict[int, tuple[str, bool]]:
@@ -1038,22 +1064,29 @@ def import_reference_files(conn: sqlite3.Connection) -> None:
         log(f"Importando {csv_name} -> {table}...")
         df = pd.read_csv(csv_path)
         
-        # Add club_color column for clubs table
-        if table == "clubs" and CLUB_COLORS_FILE.exists():
-            club_colors = load_club_colors()
+        # Add club_color and common_name columns for clubs table
+        if table == "clubs":
+            # Add club colors
+            if CLUB_COLORS_FILE.exists():
+                club_colors = load_club_colors()
 
-            def get_club_color(club_name: str) -> str:
-                if pd.isna(club_name):
-                    return None
-                return get_club_primary_color_hex(club_name, club_colors)
+                def get_club_color(club_name: str) -> str:
+                    if pd.isna(club_name):
+                        return None
+                    return get_club_primary_color_hex(club_name, club_colors)
 
-            def get_club_goalkeeper_color(club_name: str) -> str:
-                if pd.isna(club_name):
-                    return None
-                return get_club_goalkeeper_color_hex(club_name, club_colors)
+                def get_club_goalkeeper_color(club_name: str) -> str:
+                    if pd.isna(club_name):
+                        return None
+                    return get_club_goalkeeper_color_hex(club_name, club_colors)
 
-            df["club_color"] = df["name"].apply(get_club_color)
-            df["goalkeeper_uniform_color"] = df["name"].apply(get_club_goalkeeper_color)
+                df["club_color"] = df["name"].apply(get_club_color)
+                df["goalkeeper_uniform_color"] = df["name"].apply(get_club_goalkeeper_color)
+            
+            # Add common names
+            if CLUB_NAMES_FILE.exists():
+                club_names = load_club_names()
+                df["common_name"] = df["club_id"].apply(lambda x: get_club_common_name(x, club_names))
         
         import_dataframe_to_sql(conn, df, table)
 
