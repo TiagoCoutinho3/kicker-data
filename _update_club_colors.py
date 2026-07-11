@@ -5,12 +5,12 @@ path = Path('club_colors.json')
 data = json.loads(path.read_text(encoding='utf-8'))
 
 color_map = {
-    'Vermelho': '#e53935',
+    'Vermelho': '#d41717',
     'Azul': '#1e88e5',
     'Amarelo': '#fdd835',
     'Verde': '#43a047',
     'Preto': '#212121',
-    'Branco': '#ffffff',
+    'Branco': "#ffffff",
     'Laranja': '#fb8c00',
     'Vinho': '#7b1fa2',
     'Cinza': '#757575',
