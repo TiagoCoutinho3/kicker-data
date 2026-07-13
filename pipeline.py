@@ -702,9 +702,8 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
     # Country sets
     asia_countries = {
         "japan", "south korea", "korea, south", "china", "north korea", "korea, north", "taiwan", "india", "vietnam", "thailand", 
-        "indonesia", "malaysia", "singapore", "philippines", "iran", "iraq", "saudi arabia", "uae", 
-        "qatar", "oman", "jordan", "lebanon", "syria", "uzbekistan", "kyrgyzstan", 
-        "tajikistan", "turkmenistan", "kazakhstan", "yemen", "palestine", "kuwait", "bahrain", 
+        "indonesia", "malaysia", "singapore", "philippines", "uzbekistan", "kyrgyzstan", 
+        "tajikistan", "turkmenistan", "kazakhstan", 
         "bangladesh", "pakistan", "afghanistan", "nepal", "bhutan", "sri lanka", "maldives", 
         "mongolia", "myanmar", "cambodia", "laos", "brunei", "timor-leste"
     }
@@ -716,26 +715,37 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         "guinea-bissau", "gambia", "the gambia", "niger", "chad", "central african republic", "south sudan", 
         "eritrea", "ethiopia", "somalia", "rwanda", "burundi", "tanzania", "malawi", "mozambique", 
         "namibia", "botswana", "lesotho", "eswatini", "madagascar", "mauritius", "seychelles", 
-        "comoros", "equatorial guinea", "sao tome and principe", "ecuador"
+        "comoros", "equatorial guinea", "sao tome and principe", "ecuador",
+        "panama", "dominican republic", "cuba", "curacao", "curaçao", "haiti", "jamaica"
     }
     
-    north_africa = {"morocco", "algeria", "tunisia", "egypt", "libya", "sudan", "mauritania"}
+    middle_east_north_africa = {
+        "algeria", "tunisia", "egypt", "libya", "sudan", "mauritania",
+        "iran", "iraq", "uae", "qatar", "oman", "jordan", "lebanon",
+        "syria", "yemen", "palestine", "kuwait", "bahrain"
+    }
     
     group_4_countries = {
         "argentina", "uruguay", "switzerland", "italy", "hungary", "poland", "scotland", 
         "croatia", "serbia", "bosnia-herzegovina", "slovenia", "montenegro", "north macedonia", 
         "albania", "kosovo", "bulgaria", "greece", "romania", "czech republic", "slovakia",
-        "turkey", "trkiye", "türkiye"
+        "turkey", "trkiye", "türkiye", "ukraine", "estonia", "russia", "latvia", "lithuania"
     }
     
-    nordic_leste = {
-        "denmark", "sweden", "norway", "finland", "iceland", "ukraine", "estonia", "russia", "latvia", "lithuania"
+    nordic_countries = {
+        "denmark", "sweden", "norway", "finland", "iceland"
     }
     
+    mexico_country = {"mexico"}
+
+    saudi_arabia_country = {"saudi arabia"}
+    
+    morocco_country = {"morocco"}
+
     latin_america = {
-        "brazil", "mexico", "colombia", "peru", "chile", "ecuador", "venezuela", "bolivia", 
-        "paraguay", "costa rica", "panama", "honduras", "el salvador", "guatemala", "nicaragua", 
-        "cuba", "dominican republic", "puerto rico", "jamaica", "trinidad and tobago", "haiti"
+        "brazil", "colombia", "peru", "chile", "ecuador", "venezuela", "bolivia", 
+        "paraguay", "costa rica", "honduras", "el salvador", "guatemala", "nicaragua", 
+        "puerto rico", "trinidad and tobago"
     }
     
     europe_north_america = {
@@ -756,12 +766,17 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
     
     if name_region and country_lower in europe_north_america:
         if name_region == "north_africa":
-            country_lower = "morocco"
+            country_lower = "egypt"
         elif name_region == "sub_saharan_africa":
             country_lower = "nigeria"
         elif name_region == "latin_america":
             country_lower = "argentina"
-    elif country_lower in europe_north_america and not name_region:
+    elif (
+        country_lower in europe_north_america
+        and not name_region
+        and country_lower not in nordic_countries
+        and country_lower not in {"portugal", "spain"}
+    ):
         country_lower = "argentina"
     elif name_region and country_lower not in europe_north_america:
         name_region = None
@@ -771,6 +786,8 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
     expression = "blank"
     head = "short1"
     hair_color = "000000"
+    facial_hair_probability = "0"
+    facial_hair_variant = "none"
     
     if country_lower in asia_countries:
         skin_color = rng.choice(["ffdbb4", "fd9841", "edb98a", "f2c18d"])
@@ -787,11 +804,19 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         head = rng.choice(["short1", "short2"])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18"])
         
-    elif country_lower in north_africa:
-        skin_color = rng.choice(["d2b48c", "c68642", "ae703b", "8d5524"])
-        expression = rng.choice(["blank", "concerned", "suspicious", "cheeky", "contempt"])
-        head = rng.choice(["short1", "short2", "flatTop", "shaved2", "short4", "twists"])
+    elif country_lower in middle_east_north_africa:
+        skin_color = rng.choice(["d2b48c", "c68642", "edb98a"])
+        expression = rng.choice(["blank", "concerned", "suspicious", "driven"])
+        head = rng.choice(["short2", "flatTop", "shaved2",])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18", "4a3728"])
+        # Chance de o jogador ter barba: ~70%. O valor final é sempre 0 ou 100 (nunca fracionado),
+        # pra evitar que o avatar "pisque" entre com/sem barba no front.
+        if rng.random() < 0.70:
+            facial_hair_probability = "100"
+            facial_hair_variant = rng.choice(["full", "full2"])
+        else:
+            facial_hair_probability = "0"
+            facial_hair_variant = "none"
         
     elif country_lower in group_4_countries:
         skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
@@ -801,24 +826,50 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         
     elif country_lower in ["portugal", "spain"]:
         skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
-        expression = rng.choice(["blank", "cheeky", "contempt", "explaining", "hectic", "suspicious"])
+        expression = rng.choice(["blank", "cheeky", "contempt", "explaining", "suspicious"])
         head = rng.choice(["short1", "short2", "short4", "short5", "grayShort"])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18"])
         
-    elif country_lower in nordic_leste:
-        skin_color = rng.choice(["ffdbb4", "f8d25c", "fd9841", "edb98a", "f2c18d"])
-        expression_chosen = rng.choice(["blank", "cheeky", "contempt", "explaining", "hectic", "tired"])
-        head_chosen = rng.choice(["short1", "short2", "short4", "short5", "grayShort", "smile"])
+    elif country_lower in nordic_countries:
+        skin_color = rng.choice(["ffdbb4", "edb98a"])
+        expression_chosen = rng.choice(["blank", "cheeky", "contempt", "explaining", "tired"])
+        head_chosen = rng.choice(["short4","grayShort"])
         if head_chosen == "smile":
             head = "short1"
             expression = "smile"
         else:
             head = head_chosen
             expression = expression_chosen
-        hair_color = rng.choice(["fbe7a1", "f3e5ab", "e6c229", "d4af37"])
+        hair_color = rng.choice(["d79956", "d6b370", ])
         
+    elif country_lower in mexico_country:
+        skin_color = rng.choice(["c68642", "d2a679", "d08b5b"])
+        expression = rng.choice(["smileBig", "smileTeethGap","cute"])
+        head = rng.choice(["short1", "short2", "shaved2","grayShort"])
+        hair_color = rng.choice(["000000", "1a1a1a", "2c1b18"])
+
+    elif country_lower in saudi_arabia_country:
+        skin_color = rng.choice(["8d5524","6f4f1d", "4a3728", "8d5524" ])
+        expression = rng.choice(["blank", "concerned", "suspicious", "driven"])
+        head = rng.choice(["short2", "flatTop", "shaved2"])
+        hair_color = rng.choice(["000000", "1a1a1a", "2c1b18", "4a3728"])
+        # Chance de o jogador ter barba: ~70%. O valor final é sempre 0 ou 100 (nunca fracionado),
+        # pra evitar que o avatar "pisque" entre com/sem barba no front.
+        if rng.random() < 0.70:
+            facial_hair_probability = "100"
+            facial_hair_variant = rng.choice(["full", "full2"])
+        else:
+            facial_hair_probability = "0"
+            facial_hair_variant = "none"
+
+    elif country_lower in morocco_country:
+        skin_color = rng.choice(["d2b48c", "c68642", "ae703b", "8d5524"])
+        expression = rng.choice(["blank", "concerned", "suspicious", "cheeky", "contempt"])
+        head = rng.choice(["short1", "short2", "flatTop", "shaved2", "short4"])
+        hair_color = rng.choice(["000000", "1a1a1a", "2c1b18", "4a3728"])
+     
     elif country_lower in latin_america:
-        skin_color = rng.choice(["fd9841", "edb98a", "f2c18d", "c68642"])
+        skin_color = rng.choice(["fd9841", "f2c18d", "c68642"])
         expression = rng.choice(["smileBig", "smileTeethGap", "explaining", "cheeky", "smile"])
         head = rng.choice(["short1", "short2", "shaved2", "short4"])
         hair_color = rng.choice(["000000", "1a1a1a", "2c1b18", "3d2314"])
@@ -841,8 +892,8 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         "head_variant": head,
         "expression_variant": expression,
         "clothing_color": clothing_color.lstrip("#"),
-        "facial_hair_probability": "0",
-        "facial_hair_variant": "none"
+        "facial_hair_probability": facial_hair_probability,
+        "facial_hair_variant": facial_hair_variant
     }
     
     encoded_params = urllib.parse.urlencode({
@@ -854,8 +905,8 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
         "clothingColor": clothing_color,
         "accessoriesProbability": "0",
         "maskProbability": "0",
-        "facialHairProbability": "0",
-        "facialHairVariant": "none"
+        "facialHairProbability": facial_hair_probability,
+        "facialHairVariant": facial_hair_variant
     })
     
     url = f"https://api.dicebear.com/10.x/open-peeps/svg?{encoded_params}"
