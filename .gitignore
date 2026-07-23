@@ -7,3 +7,6 @@ raw/
 *.db
 *.db-shm
 *.db-wal
+
+# Kaggle credentials
+kaggle.json
