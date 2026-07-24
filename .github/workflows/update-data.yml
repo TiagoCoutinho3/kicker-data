@@ -1,0 +1,80 @@
+name: Update Data
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'   
+  workflow_dispatch:     
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instala dependências
+        run: pip install -r requirements.txt
+
+      - name: Verifica se o dataset do Kaggle tem versão nova
+        id: check
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+        run: python check_dataset_version.py
+
+      # A partir daqui, todos os steps só rodam se houver versão nova --
+      # evita gastar minutos do Actions e gerar release vazia à toa.
+
+      - name: Baixa football.db da última release (preserva avatares manuais)
+        if: steps.check.outputs.has_update == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p clean
+          LATEST_TAG=$(gh release list --limit 1 --json tagName -q '.[0].tagName')
+          echo "Baixando football.db da release: $LATEST_TAG"
+          gh release download "$LATEST_TAG" --pattern "football.db" --dir clean/ --clobber
+
+      - name: Baixa CSVs novos do Kaggle
+        if: steps.check.outputs.has_update == 'true'
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+        run: python download_dataset.py
+
+      - name: Roda pipeline (sem --force, preserva avatares manuais e automáticos)
+        if: steps.check.outputs.has_update == 'true'
+        run: python pipeline.py
+
+      - name: Publica nova release com o banco atualizado
+        if: steps.check.outputs.has_update == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="data-v${{ steps.check.outputs.remote_version }}"
+          gh release create "$TAG" \
+            clean/football.db \
+            --title "Data update: dataset versão ${{ steps.check.outputs.remote_version }}" \
+            --notes "Atualizado automaticamente via GitHub Actions a partir da versão ${{ steps.check.outputs.remote_version }} do dataset Kaggle."
+
+      - name: Atualiza o estado de versão processada
+        if: steps.check.outputs.has_update == 'true'
+        run: |
+          python -c "
+          import json
+          from pathlib import Path
+          Path('.last_processed_version.json').write_text(
+              json.dumps({'version': ${{ steps.check.outputs.remote_version }}})
+          )
+          "
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .last_processed_version.json
+          git commit -m "chore: dataset atualizado para versão ${{ steps.check.outputs.remote_version }}" || echo "nada pra commitar"
+          git push
