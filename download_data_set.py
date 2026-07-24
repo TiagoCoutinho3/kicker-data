@@ -9,6 +9,7 @@ Não precisa de nenhum código diferente pra cada ambiente -- a lib resolve isso
 
 from __future__ import annotations
 
+import argparse
 import shutil
 from pathlib import Path
 
@@ -39,11 +40,22 @@ def log(msg: str) -> None:
 
 
 def main() -> None:
-    log(f"Baixando dataset '{DATASET_REF}' do Kaggle (força versão mais recente)...")
+    parser = argparse.ArgumentParser(description="Baixa o dataset player-scores do Kaggle")
+    parser.add_argument(
+        "--version",
+        type=int,
+        default=None,
+        help="Número de uma versão específica do dataset (ex: 673). Sem isso, pega a mais recente.",
+    )
+    args = parser.parse_args()
+
+    handle = DATASET_REF if args.version is None else f"{DATASET_REF}/versions/{args.version}"
+    versao_label = "mais recente" if args.version is None else f"versão {args.version}"
+    log(f"Baixando dataset '{DATASET_REF}' do Kaggle ({versao_label})...")
 
     # force_download=True evita usar uma cópia em cache antiga -- sempre pega
-    # a versão mais recente disponível no Kaggle nesse momento
-    downloaded_path = Path(kagglehub.dataset_download(DATASET_REF, force_download=True))
+    # a versão pedida de fato, sem servir algo já cacheado por engano
+    downloaded_path = Path(kagglehub.dataset_download(handle, force_download=True))
     log(f"  Baixado em: {downloaded_path}")
 
     RAW_DIR.mkdir(parents=True, exist_ok=True)
