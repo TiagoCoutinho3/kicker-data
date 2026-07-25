@@ -2,11 +2,12 @@ name: Update Data
 
 on:
   schedule:
-    - cron: '0 9 * * 1'   
-  workflow_dispatch:     
+     - cron: '0 9 */3 * *'  # a cada 3 dias, 9h UTC — ajuste como preferir
+  workflow_dispatch:        # também permite disparar manualmente pelo GitHub
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   update:
@@ -40,6 +41,7 @@ jobs:
           LATEST_TAG=$(gh release list --limit 1 --json tagName -q '.[0].tagName')
           echo "Baixando football.db da release: $LATEST_TAG"
           gh release download "$LATEST_TAG" --pattern "football.db" --dir clean/ --clobber
+          cp clean/football.db clean/football_previous.db
 
       - name: Baixa CSVs novos do Kaggle
         if: steps.check.outputs.has_update == 'true'
@@ -52,8 +54,13 @@ jobs:
         if: steps.check.outputs.has_update == 'true'
         run: python pipeline.py
 
-      - name: Publica nova release com o banco atualizado
+      - name: Valida qualidade do dataset antes de publicar
         if: steps.check.outputs.has_update == 'true'
+        id: validate
+        run: python validate_release.py
+
+      - name: Publica nova release com o banco atualizado
+        if: steps.check.outputs.has_update == 'true' && steps.validate.outputs.validation_passed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -64,7 +71,7 @@ jobs:
             --notes "Atualizado automaticamente via GitHub Actions a partir da versão ${{ steps.check.outputs.remote_version }} do dataset Kaggle."
 
       - name: Atualiza o estado de versão processada
-        if: steps.check.outputs.has_update == 'true'
+        if: steps.check.outputs.has_update == 'true' && steps.validate.outputs.validation_passed == 'true'
         run: |
           python -c "
           import json
@@ -78,3 +85,17 @@ jobs:
           git add .last_processed_version.json
           git commit -m "chore: dataset atualizado para versão ${{ steps.check.outputs.remote_version }}" || echo "nada pra commitar"
           git push
+
+      - name: Cria issue avisando falha de validação
+        if: steps.check.outputs.has_update == 'true' && steps.validate.outputs.validation_passed == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const reasons = `${{ steps.validate.outputs.failure_reasons }}`;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🚨 Validação falhou — nova versão do dataset NÃO foi publicada',
+              body: `A versão ${{ steps.check.outputs.remote_version }} do dataset Kaggle veio com problema(s) de qualidade e a release automática foi bloqueada:\n\n${reasons}\n\nO estado de "última versão processada" NÃO foi avançado -- o workflow vai tentar de novo automaticamente na próxima execução agendada, ou você pode investigar manualmente e rodar de novo.`,
+              labels: ['validation-failed']
+            });
