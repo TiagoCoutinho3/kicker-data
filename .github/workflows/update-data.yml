@@ -2,8 +2,13 @@ name: Update Data
 
 on:
   schedule:
-     - cron: '0 9 */3 * *'  # a cada 3 dias, 9h UTC — ajuste como preferir
+    - cron: '0 9 * * 1'   # toda segunda, 9h UTC — ajuste como preferir
   workflow_dispatch:        # também permite disparar manualmente pelo GitHub
+    inputs:
+      dataset_version:
+        description: 'Versão específica do dataset Kaggle (deixe vazio pra pegar a mais recente)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -27,7 +32,14 @@ jobs:
         env:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
-        run: python check_dataset_version.py
+        run: |
+          if [ -n "${{ github.event.inputs.dataset_version }}" ]; then
+            echo "Versão específica solicitada manualmente: ${{ github.event.inputs.dataset_version }} -- pulando checagem normal"
+            echo "has_update=true" >> "$GITHUB_OUTPUT"
+            echo "remote_version=${{ github.event.inputs.dataset_version }}" >> "$GITHUB_OUTPUT"
+          else
+            python check_dataset_version.py
+          fi
 
       # A partir daqui, todos os steps só rodam se houver versão nova --
       # evita gastar minutos do Actions e gerar release vazia à toa.
@@ -43,12 +55,17 @@ jobs:
           gh release download "$LATEST_TAG" --pattern "football.db" --dir clean/ --clobber
           cp clean/football.db clean/football_previous.db
 
-      - name: Baixa CSVs novos do Kaggle
+      - name: Baixa CSVs do Kaggle (versão específica ou a mais recente)
         if: steps.check.outputs.has_update == 'true'
         env:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
-        run: python download_dataset.py
+        run: |
+          if [ -n "${{ github.event.inputs.dataset_version }}" ]; then
+            python download_dataset.py --version ${{ github.event.inputs.dataset_version }}
+          else
+            python download_dataset.py
+          fi
 
       - name: Roda pipeline (sem --force, preserva avatares manuais e automáticos)
         if: steps.check.outputs.has_update == 'true'
@@ -71,7 +88,7 @@ jobs:
             --notes "Atualizado automaticamente via GitHub Actions a partir da versão ${{ steps.check.outputs.remote_version }} do dataset Kaggle."
 
       - name: Atualiza o estado de versão processada
-        if: steps.check.outputs.has_update == 'true' && steps.validate.outputs.validation_passed == 'true'
+        if: steps.check.outputs.has_update == 'true' && steps.validate.outputs.validation_passed == 'true' && github.event.inputs.dataset_version == ''
         run: |
           python -c "
           import json
