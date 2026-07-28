@@ -416,9 +416,9 @@ def restore_existing_avatar_data(players: pd.DataFrame) -> pd.DataFrame:
     return players_with_avatar_data
 
 
-def get_club_primary_color_hex(club_name: str | None, club_colors: dict | None = None) -> str | None:
+def get_club_primary_color_hex(club_id: int | None, club_colors: dict | None = None) -> str | None:
     """Return the club primary color as a hex code for frontend consumption."""
-    if pd.isna(club_name) or not club_name:
+    if pd.isna(club_id) or club_id is None:
         return None
 
     if club_colors is None:
@@ -427,7 +427,7 @@ def get_club_primary_color_hex(club_name: str | None, club_colors: dict | None =
     if not club_colors:
         return None
 
-    club_data = club_colors.get(club_name)
+    club_data = club_colors.get(str(club_id))
     if not isinstance(club_data, dict):
         return None
 
@@ -445,9 +445,9 @@ def get_club_primary_color_hex(club_name: str | None, club_colors: dict | None =
     return color_value
 
 
-def get_club_goalkeeper_color_hex(club_name: str | None, club_colors: dict | None = None) -> str | None:
+def get_club_goalkeeper_color_hex(club_id: int | None, club_colors: dict | None = None) -> str | None:
     """Return the goalkeeper uniform color as a hex code for frontend consumption."""
-    if pd.isna(club_name) or not club_name:
+    if pd.isna(club_id) or club_id is None:
         return None
 
     if club_colors is None:
@@ -456,7 +456,7 @@ def get_club_goalkeeper_color_hex(club_name: str | None, club_colors: dict | Non
     if not club_colors:
         return None
 
-    club_data = club_colors.get(club_name)
+    club_data = club_colors.get(str(club_id))
     if not isinstance(club_data, dict):
         return None
 
@@ -691,7 +691,7 @@ def detect_name_pattern(name: str) -> str | None:
     return None
 
 
-def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_position: str, club: str | None = None, club_colors: dict | None = None) -> tuple[str, dict[str, str]]:
+def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_position: str, club_id: int | None = None, club_colors: dict | None = None) -> tuple[str, dict[str, str]]:
     rng = random.Random(player_id)
     
     country_lower = str(country).lower().strip() if pd.notna(country) else ""
@@ -882,8 +882,8 @@ def get_avatar_url(player_id: int, name: str, country: str, position: str, sub_p
     
     # Get club color for clothing
     clothing_color = "#757575"
-    if club and club_colors:
-        clothing_color = get_club_primary_color_hex(club, club_colors) or "#757575"
+    if club_id and club_colors:
+        clothing_color = get_club_primary_color_hex(club_id, club_colors) or "#757575"
     
     # Build visual params dict
     visual_params = {
@@ -941,7 +941,7 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
     for _, row in players.iterrows():
         pid = int(row["player_id"])
         player_name = row["name"]
-        current_club = row["current_club_name"] if pd.notna(row["current_club_name"]) else None
+        current_club_id = row["current_club_id"] if pd.notna(row["current_club_id"]) else None
         
         saved_data = existing_avatars.get(pid)
         
@@ -956,8 +956,8 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
             
             # Manual avatars: update clothing color but preserve everything else
             if is_manual:
-                if current_club and club_colors:
-                    new_clothing_color = get_club_primary_color_hex(current_club, club_colors)
+                if current_club_id and club_colors:
+                    new_clothing_color = get_club_primary_color_hex(current_club_id, club_colors)
                     if new_clothing_color:
                         current_color = get_clothing_color_from_url(saved_url)
                         # Only update if color actually changed
@@ -999,7 +999,7 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
                     country=row["country_of_citizenship"],
                     position=row["position"],
                     sub_position=row["sub_position"],
-                    club=current_club,
+                    club_id=current_club_id,
                     club_colors=club_colors
                 )
                 new_image_urls.append(avatar_url)
@@ -1015,8 +1015,8 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
                 facial_hair_variants.append(visual_params["facial_hair_variant"])
             else:
                 # Update clothing color if club changed
-                if current_club and club_colors:
-                    new_clothing_color = get_club_primary_color_hex(current_club, club_colors)
+                if current_club_id and club_colors:
+                    new_clothing_color = get_club_primary_color_hex(current_club_id, club_colors)
                     if new_clothing_color:
                         current_color = get_clothing_color_from_url(saved_url)
                         # Only update if color actually changed
@@ -1055,7 +1055,7 @@ def generate_avatars(players: pd.DataFrame, force: bool = False) -> pd.DataFrame
                 country=row["country_of_citizenship"],
                 position=row["position"],
                 sub_position=row["sub_position"],
-                club=current_club,
+                club_id=current_club_id,
                 club_colors=club_colors
             )
             
@@ -1121,18 +1121,18 @@ def import_reference_files(conn: sqlite3.Connection) -> None:
             if CLUB_COLORS_FILE.exists():
                 club_colors = load_club_colors()
 
-                def get_club_color(club_name: str) -> str:
-                    if pd.isna(club_name):
+                def get_club_color(club_id: int) -> str:
+                    if pd.isna(club_id):
                         return None
-                    return get_club_primary_color_hex(club_name, club_colors)
+                    return get_club_primary_color_hex(club_id, club_colors)
 
-                def get_club_goalkeeper_color(club_name: str) -> str:
-                    if pd.isna(club_name):
+                def get_club_goalkeeper_color(club_id: int) -> str:
+                    if pd.isna(club_id):
                         return None
-                    return get_club_goalkeeper_color_hex(club_name, club_colors)
+                    return get_club_goalkeeper_color_hex(club_id, club_colors)
 
-                df["club_color"] = df["name"].apply(get_club_color)
-                df["goalkeeper_uniform_color"] = df["name"].apply(get_club_goalkeeper_color)
+                df["club_color"] = df["club_id"].apply(get_club_color)
+                df["goalkeeper_uniform_color"] = df["club_id"].apply(get_club_goalkeeper_color)
             
             # Add common names
             if CLUB_NAMES_FILE.exists():
