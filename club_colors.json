@@ -1,3162 +1,3182 @@
 {
-  "Independiente Medellín": {
+  "3": {
     "Principal": "#d41717",
-    "Goleiro": "#43a047"
+    "Goleiro": "#fdd835"
   },
-  "Watford FC": {
-    "Principal": "#fdd835",
-    "Goleiro": "#43a047"
-  },
-  "Halmstads BK": {
-    "Principal": "#1e88e5",
+  "4": {
+    "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Sarpsborg 08 Fotballforening": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Cerezo Osaka": {
-    "Principal": "#ec407a",
-    "Goleiro": "#212121"
-  },
-  "Sociedade Esportiva Palmeiras": {
-    "Principal": "#024a1b",
-    "Goleiro": "#757575"
-  },
-  "Bologna Football Club 1909": {
+  "5": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Club Atlético Vélez Sársfield": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#43a047"
-  },
-  "Asociación Atlética Argentinos Juniors": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Luton Town": {
+  "6": {
     "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "10": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#ffffff"
+  },
+  "11": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "12": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "13": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "14": {
+    "Principal": "#8e24aa",
     "Goleiro": "#212121"
   },
-  "Reading FC": {
-    "Principal": "#1e88e5",
+  "15": {
+    "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "UC Sampdoria": {
-    "Principal": "#1e88e5",
+  "16": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "18": {
+    "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "Queens Park Rangers": {
+  "19": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Olympique Lyonnais": {
+  "20": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "23": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "24": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "26": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "27": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "29": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "31": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "33": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "35": {
+    "Principal": "#795548",
+    "Goleiro": "#212121"
+  },
+  "36": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "38": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "39": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "40": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "41": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "42": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "43": {
+    "Principal": "#8d6e63",
+    "Goleiro": "#fdd835"
+  },
+  "44": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "46": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "47": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "53": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "58": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#212121"
+  },
+  "60": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "61": {
+    "Principal": "#8d6e63",
+    "Goleiro": "#fdd835"
+  },
+  "62": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "65": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "76": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "79": {
     "Principal": "#ffffff",
-    "Goleiro": "#212121"
-  },
-  "Djurgårdens Idrottsförening": {
-    "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Calcio Como": {
+  "80": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Kasımpaşa A.Ş.": {
+  "82": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "86": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "88": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "89": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "105": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Valencia Club de Fútbol S. A. D.": {
-    "Principal": "#ffffff",
-    "Goleiro": "#43a047"
+  "114": {
+    "Principal": "#212121",
+    "Goleiro": "#fdd835"
   },
-  "Esporte Clube Juventude": {
+  "120": {
     "Principal": "#43a047",
     "Goleiro": "#212121"
   },
-  "SV Darmstadt 98": {
+  "121": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Villarreal Club de Fútbol S.A.D.": {
+  "122": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "124": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "126": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "127": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "128": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "130": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Deportes Tolima": {
-    "Principal": "#7b1fa2",
-    "Goleiro": "#fdd835"
-  },
-  "CA San Martín (San Juan)": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Aalborg BK": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Bryne FK": {
-    "Principal": "#d41717",
-    "Goleiro": "#1e88e5"
-  },
-  "Hammarby IF": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Los Angeles Galaxy": {
-    "Principal": "#ffffff",
-    "Goleiro": "#43a047"
-  },
-  "S-Pulse": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#212121"
-  },
-  "Viborg Fodsports Forening": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Nagoya Grampus Eight": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "FC Zorya Lugansk": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Wigan Athletic": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Sporting Clube de Braga": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Lille Olympique Sporting Club": {
-    "Principal": "#0d47a1",
-    "Goleiro": "#fdd835"
-  },
-  "FK Rostov": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Málaga CF": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#43a047"
-  },
-  "Vitória Setúbal FC": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Fortaleza Esporte Clube": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Alkmaar Zaanstreek": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Panthessalonikios Athlitikos Omilos Konstantinoupoliton": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Idrottsföreningen Brommapojkarna": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "ESTAC Troyes": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Royal Antwerp Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Clube do Remo": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Arsenal Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Sportsklubben Brann": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Idrottsföreningen Elfsborg": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "AVS Futebol SAD": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Club de Gimnasia y Esgrima La Plata": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#43a047"
-  },
-  "Deportivo Alavés S. A. D.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "BK Häcken": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Huddersfield Town": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Mordovia Saransk (-2020)": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Ural Yekaterinburg": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#212121"
-  },
-  "Al-Hilal Saudi Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Toronto FC": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Örgryte IS": {
-    "Principal": "#d41717",
-    "Goleiro": "#1e88e5"
-  },
-  "NK Lokomotiva Zagreb": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Norwich City": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Fakel Voronezh": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Alanyaspor": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#212121"
-  },
-  "Burnley Football Club": {
-    "Principal": "#7b1fa2",
-    "Goleiro": "#43a047"
-  },
-  "ASFC Buzau (2016-2025)": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Beşiktaş Jimnastik Kulübü": {
-    "Principal": "#212121",
-    "Goleiro": "#fdd835"
-  },
-  "Impulsora del Deportivo Necaxa S.A. de C.V.": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "AC Ajaccio": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Brentford Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "San Diego Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Football Club Lorient-Bretagne Sud": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#212121"
-  },
-  "AS Nancy-Lorraine": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Nîmes Olympique": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "SM Caen": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Independiente Santa Fe": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Giresunspor": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Silkeborg Idrætsforening": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético Tigre": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Auckland Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Koninklijke Racing Club Genk": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Junior FC": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Torpedo Moscow": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Falkirk Football & Athletic Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Associazione Sportiva Roma": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Kocaelispor Kulübü": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "FK Dinamo Moskva": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "US Livorno 1915": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Club Sportivo Independiente Rivadavia": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Sportklub Puntigamer Sturm Graz": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Club Atlético Aldosivi": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Girona Fútbol Club S. A. D.": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Club Atlético Independiente de Avellaneda": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Östers IF": {
-    "Principal": "#d41717",
-    "Goleiro": "#1e88e5"
-  },
-  "Brighton and Hove Albion Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Rangers Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Livingston Football Club": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Volga Nizhniy Novgorod (- 2016)": {
-    "Principal": "#ffffff",
-    "Goleiro": "#212121"
-  },
-  "CD Leganés": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "KAS Eupen": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Club Atlético Sarmiento": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Colorado Rapids": {
-    "Principal": "#7b1fa2",
-    "Goleiro": "#fdd835"
-  },
-  "CD Godoy Cruz Antonio Tomba": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Çaykur Rizespor Kulübü": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "ADO Den Haag": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Prins Hendrik Ende Desespereert Nimmer Combinatie Zwolle": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "SC Paderborn 07": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "AO Xanthi": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "FC Emmen": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético Newell’s Old Boys": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Tromsø Idrettslag": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético de Madrid S.A.D.": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Parma Calcio 1913": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "CS Marítimo": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Heracles Almelo": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Futbol Club Barcelona": {
+  "131": {
     "Principal": "#a50044",
     "Goleiro": "#fdd835"
   },
-  "Nooit Opgeven Altijd Doorzetten Aangenaam Door Vermaak En Nuttig Door Ontspanning Combinatie Breda": {
+  "132": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "SK Dynamo Ceske Budejovice": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "FK Jablonec a.s.": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "SC Cambuur Leeuwarden": {
+  "133": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Club Tijuana Xoloitzcuintles de Caliente": {
+  "141": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "MFK Karvina": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Siena FC": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Cagliari Calcio": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Fußballklub Austria Wien": {
-    "Principal": "#8e24aa",
-    "Goleiro": "#212121"
-  },
-  "Club Santos Laguna S. A. de C. V.": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Galatasaray Spor Kulübü": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "RAEC Mons (- 2015)": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Amiens SC": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Thonon Évian Grand Genève FC": {
-    "Principal": "#ec407a",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético Rosario Central": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Real Zaragoza": {
+  "142": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Angers Sporting Club de l'Ouest": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Stade Reims": {
-    "Principal": "#d41717",
+  "144": {
+    "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Valenciennes FC": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "VVV-Venlo": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Cesena FC": {
+  "148": {
     "Principal": "#ffffff",
     "Goleiro": "#43a047"
   },
-  "Sportclub Telstar": {
-    "Principal": "#ffffff",
-    "Goleiro": "#fdd835"
-  },
-  "Go Ahead Eagles": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "SC Beira-Mar": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Hrvatski Nogometni Klub Rijeka": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Racing Club Asociación Civil de Avellaneda": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "FC Dordrecht": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Club Atlético Tucumán": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "FC Orenburg": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Asociación Atlética Estudiantes": {
-    "Principal": "#4fc3f7",
-    "Goleiro": "#212121"
-  },
-  "Boyacá Chicó FC": {
-    "Principal": "#424242",
-    "Goleiro": "#fdd835"
-  },
-  "Grupo Desportivo Estoril Praia": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Göztepe Sportif Yatırımlar A.Ş.": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Unión Magdalena": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Club Atlético Gimnasia y Esgrima de Mendoza": {
-    "Principal": "#ffffff",
-    "Goleiro": "#212121"
-  },
-  "Tottenham Hotspur Football Club": {
-    "Principal": "#ffffff",
-    "Goleiro": "#43a047"
-  },
-  "FK Pardubice": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Bayer 04 Leverkusen Fußball": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Real Betis Balompié S.A.D.": {
+  "150": {
     "Principal": "#43a047",
     "Goleiro": "#212121"
   },
-  "Kardemir Karabükspor": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Dundee United Football Club": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#212121"
-  },
-  "Samsunspor": {
+  "152": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Fudbalski Klub Spartak Ždrepčeva krv": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Elche Club de Fútbol S.A.D.": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "SD Eibar": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Koninklijke Atletiek Associatie Gent": {
+  "157": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Fudbalski klub Crvena zvezda Beograd": {
+  "159": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Termalica Bruk-Bet Nieciecza Klub Sportowy": {
+  "162": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "167": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "168": {
     "Principal": "#fb8c00",
     "Goleiro": "#fdd835"
   },
-  "Borussia Dortmund": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Association sportive de Monaco Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Desna Chernigiv": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "FK Sevastopol (- 2014)": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "PFK Stal Kamyanske (-2018)": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Catania FC": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Fußball-Club Augsburg 1907": {
+  "169": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "FK Krasnodar": {
+  "170": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
   },
-  "Granada CF": {
+  "172": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "173": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "180": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "189": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "190": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "192": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "195": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "197": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "199": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "200": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Zagłębie Lubin Spółka Akcyjna": {
+  "202": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "204": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "206": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "209": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "210": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "218": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "221": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "223": {
     "Principal": "#fb8c00",
     "Goleiro": "#fdd835"
   },
-  "Panionios Athens": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Sportklub Rapid": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Royal Charleroi Sporting Club": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Al-Wehda FC": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Odense Boldklub": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Internacional de Bogotá": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético San Lorenzo de Almagro": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Associação Chapecoense de Futebol": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Borussia Verein für Leibesübungen 1900 Mönchengladbach": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Southampton FC": {
+  "232": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Deportivo Toluca Futbol Club, S. A. de C. V.": {
+  "234": {
     "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "PFK Lviv": {
-    "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Instituto Atlético Central Córdoba": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "FC Oleksandriya": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Al-Ahli Saudi Football Club": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Al-Nassr Football Club": {
+  "235": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Club Atlético Boca Juniors": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Hvidovre IF": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "FC Hradec Králové a.s.": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Brescia Calcio": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Football Club København": {
-    "Principal": "#ffffff",
-    "Goleiro": "#212121"
-  },
-  "Roda JC Kerkrade": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Rosenborg Ballklub": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Vendsyssel FF": {
-    "Principal": "#ffffff",
-    "Goleiro": "#fdd835"
-  },
-  "Jeju SK Football Club": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#212121"
-  },
-  "AC Sparta Praha, a. s.": {
+  "237": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Akhisarspor": {
+  "238": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "239": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "242": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "244": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "252": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "255": {
     "Principal": "#43a047",
     "Goleiro": "#212121"
   },
-  "Asociación de Fomento Deportivo Riestra Barrio Colón": {
+  "257": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "260": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "265": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "266": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "Yeni Malatyaspor": {
+  "267": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Sport Club Corinthians Paulista": {
+  "269": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "272": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "Bursaspor": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Football Club Utrecht": {
+  "273": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "FC Vestsjaelland": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Football Club Groningen": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Ceará Sporting Club": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "1. Fußballclub Heidenheim 1846": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Lierse SK (- 2018)": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Rionegro Águilas": {
-    "Principal": "#ffb300",
-    "Goleiro": "#212121"
-  },
-  "Brøndby Idrætsforening": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético Huracán": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Balikesirspor": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Veria NPS": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "FK Jedinstvo Ub": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético River Plate": {
-    "Principal": "#ffffff",
-    "Goleiro": "#43a047"
-  },
-  "Grêmio Foot-Ball Porto Alegrense": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Kristiansund Ballklubb": {
+  "276": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Wisła Płock Spółka Akcyjna": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Esporte Clube Vitória": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Gangwon Football Club": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#fdd835"
-  },
-  "Fußballclub Blau-Weiß Linz": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "San Jose Earthquakes": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "AO Platanias": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Football Club Mito HollyHock": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Santos Futebol Clube": {
-    "Principal": "#ffffff",
-    "Goleiro": "#43a047"
-  },
-  "FC Helsingör": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Fagiano Okayama Sports Club": {
-    "Principal": "#7b1fa2",
-    "Goleiro": "#fdd835"
-  },
-  "SK Tavriya Simferopol ( - 2022)": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "HNK Sibenik": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#fdd835"
-  },
-  "Al-Raed SFC": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Unione Sportiva Cremonese S.p.A.": {
-    "Principal": "#757575",
-    "Goleiro": "#212121"
-  },
-  "Kashima Antlers FC": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Stal Mielec": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Club Brugge Koninklijke Voetbalvereniging": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Swansea City": {
-    "Principal": "#ffffff",
-    "Goleiro": "#212121"
-  },
-  "Alianza FC": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Elazigspor": {
-    "Principal": "#880e4f",
-    "Goleiro": "#212121"
-  },
-  "Konyaspor": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Eintracht Braunschweig": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Jagiellonia-Bialystok Sportowa Spólka Akcyjna": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "SK Sigma Olomouc, a.s.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "KFUM-Kameratene Oslo": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "FK Spartak Moskva": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Orduspor": {
-    "Principal": "#661197",
-    "Goleiro": "#212121"
-  },
-  "Feyenoord Rotterdam": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "RKC Waalwijk": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Millonarios FC": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "CD América de Cali": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Zelvia": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "V-Varen Nagasaki": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Olimpik Donetsk": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "NK Slaven Belupo Koprivnica": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Real Club Deportivo Mallorca S.A.D.": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Altay SK": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "KKS Lech Poznań Spółka Akcyjna": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Sivasspor": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "RasenBallsport Leipzig": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Viking Fotballklubb": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Eintracht Frankfurt Fußball AG": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Club Social y Deportivo Defensa y Justicia": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Club de Fútbol Monterrey Rayados A.C.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "PFK CSKA Moskva": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "AC Horsens": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético Belgrano": {
-    "Principal": "#4fc3f7",
-    "Goleiro": "#fdd835"
-  },
-  "Fussballclub Winterthur": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Vitória Sport Clube": {
-    "Principal": "#ffffff",
-    "Goleiro": "#43a047"
-  },
-  "Clube Desportivo Santa Clara": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Gil Vicente Futebol Clube": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Ümraniyespor": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Rio Ave Futebol Clube": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Club Football Estrela da Amadora": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Kuban Krasnodar (-2018)": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Olympique de Marseille": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "D.C. United": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Athlitiki Enosi Konstantinoupoleos": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Wattener Sportgemeinschaft Swarovski Tirol": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Sporting Gijón": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Inverness Caledonian Thistle FC": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "B SAD": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "HNK Gorica": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Fluminense Football Club": {
-    "Principal": "#8d6e63",
-    "Goleiro": "#43a047"
-  },
-  "Karpaty Lviv (-2021)": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Real Oviedo S.A.D.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Boavista FC": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Club Atlético Barracas Central": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Genoa Cricket and Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Futebol Clube de Alverca": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Philadelphia Union": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Legia Warszawa Spółka Akcyjna": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Kilmarnock Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Melbourne City Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "FC St. Gallen 1879": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "St. Johnstone FC": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "FC Basel 1893 AG": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "FC Zürich": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Al-Qadsiah Saudi Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "NK Veres Rivne": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Panathinaikos Athlitikos Omilos": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Sportvereinigung Ried 1912": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Idrettsklubben Start": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "PAS Giannina": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "APO Levadiakos Football Club": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Cádiz CF": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Holstein Kiel": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "PFK Krylya Sovetov Samara": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Sanfrecce Hiroshima": {
-    "Principal": "#8e24aa",
-    "Goleiro": "#fdd835"
-  },
-  "FC Rubin Kazan": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "FC Bayern München": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Anzhi Makhachkala ( -2022)": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Spartak Vladikavkaz (-2020)": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "RFC Seraing": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Mjällby Almänna Idrottsförening": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Allmänna Idrottsklubben": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "SPAL": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Al-Fateh Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Oud-Heverlee Leuven": {
-    "Principal": "#ffffff",
-    "Goleiro": "#fdd835"
-  },
-  "Stade Rennais Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Vorskla Poltava": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "FK Baltika": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Ross County FC": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Verona Hellas Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Partick Thistle FC": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "FK Haugesund": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Fodbold Club Nordsjælland": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Metalurg Donetsk (- 2015)": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "FC Lugano": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "FK Ufa": {
-    "Principal": "#661197",
-    "Goleiro": "#fdd835"
-  },
-  "Manchester City Football Club": {
+  "281": {
     "Principal": "#6cabdd",
     "Goleiro": "#212121"
   },
-  "Strømsgodset IF": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Gaziantep Futbol Kulübü A.Ş.": {
+  "288": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "IFK Norrköping": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "KV Oostende": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "SK Beveren": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "SK Austria Klagenfurt": {
-    "Principal": "#8e24aa",
-    "Goleiro": "#fdd835"
-  },
-  "Club Estudiantes de La Plata": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Al-Taawoun Football Club": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Puszcza Niepolomice": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Sunderland Association Football Club": {
+  "289": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "AEL Kalloni": {
+  "290": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Everton Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Association de la Jeunge auxerroise": {
-    "Principal": "#1e88e5",
+  "294": {
+    "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "AC Monza": {
+  "301": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Delfino Pescara 1936": {
+  "306": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Royal Excel Mouscron (-2022)": {
+  "311": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Sport Lisboa e Benfica": {
+  "312": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Ankaraspor": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Dijon FCO": {
+  "316": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Asociația Fotbal Club Unirea 04 Slobozia": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "F.C.V. Farul Constanța SA": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Académica Coimbra": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "FC Paços de Ferreira": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Incheon United Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Hamilton Academical FC": {
+  "317": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "1. Fußball-Club Köln": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Hull City": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "SC Fotbal Club FCSB SA": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Athlitiki Enosi Kifisias": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Royal Standard Club de Liège": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Sportclub Heerenveen": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "APS Atromitos Athinon": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Athens Kallithea": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Gwangju Football Club": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Liverpool Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Al-Riyadh Saudi Club": {
+  "321": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Football Club Pohang Steelers": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "SC Dinamo 1948 SA": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético Central Córdoba": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Fudbalski klub TSC Bačka Topola": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Grazer Athletiksport Klub 1902": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Suwon FC": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Football Club Twente": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Fortaleza CEIF": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Kayserispor Kulübü": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Pendikspor": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "FC Sion": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Fudbalski Klub IMT Novi Beograd": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Mersin Talimyurdu SK": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Yverdon Sport FC": {
+  "322": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
   },
-  "Al-Najma Sport Club": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Morski Klub Sportowy Pogoń Szczecin": {
+  "324": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Casa Pia Atlético Clube": {
+  "327": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "330": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "NK Osijek s.d.d.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "FC Schalke 04": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Clube Atlético Mineiro": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "UD Almería": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético Osasuna": {
+  "331": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "GD Chaves": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "FC Penafiel": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Futebol Clube de Famalicão": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético Lanús": {
+  "333": {
     "Principal": "#8d6e63",
     "Goleiro": "#fdd835"
   },
-  "Fudbalski klub Radnik Surdulica": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Desportivo Aves (- 2020)": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "CD Feirense": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Sporting Clube de Portugal": {
+  "336": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
   },
-  "Levante Unión Deportiva S.A.D.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Futbolniy Klub Dynamo Kyiv": {
+  "338": {
     "Principal": "#ffffff",
     "Goleiro": "#fdd835"
   },
-  "Panserraikos Serres": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Dnipro Dnipropetrovsk (-2020)": {
+  "339": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "ACSM Politehnica Iasi": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Esbjerg fB": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Football Club de Metz": {
+  "347": {
     "Principal": "#8d6e63",
     "Goleiro": "#212121"
   },
-  "Neom Sports Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Fußball-Club St. Pauli von 1910": {
-    "Principal": "#795548",
-    "Goleiro": "#212121"
-  },
-  "Sheffield United": {
+  "350": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Sportvereniging Zulte Waregem": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Spezia Calcio": {
-    "Principal": "#ffffff",
-    "Goleiro": "#fdd835"
-  },
-  "Clermont Foot 63": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Motor Lublin Spółka Akcyjna": {
+  "353": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Lillestrøm Sportsklubb": {
+  "354": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Ulsan Hyundai Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Yellow-Red Koninklijke Voetbalclub Mechelen": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Sportclub Rheindorf Altach": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "GFC Ajaccio": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Bucheon Football Club 1995": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "FK Kryvbas Kryvyi Rig": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Fenerbahçe Spor Kulübü": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Rotor Volgograd": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Western Sydney Wanderers": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "IFK Värnamo": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Club de Futbol América S. A. de C. V.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Degerfors IF": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Kalmar Fotbollförening": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Real Valladolid CF": {
+  "366": {
     "Principal": "#8e24aa",
     "Goleiro": "#fdd835"
   },
-  "Rayo Vallecano de Madrid S. A. D.": {
+  "367": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Sevilla Fútbol Club S.A.D.": {
+  "368": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Lyngby Boldklub": {
+  "369": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "SKA Khabarovsk": {
+  "370": {
     "Principal": "#d41717",
-    "Goleiro": "#fdd835"
+    "Goleiro": "#212121"
   },
-  "Tom Tomsk": {
+  "371": {
     "Principal": "#43a047",
     "Goleiro": "#212121"
   },
-  "FK Tekstilac Odzaci": {
+  "377": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Aberdeen Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Getafe Club de Fútbol S. A. D. Team Dubai": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "The Celtic Football Club": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Club de Fútbol Cruz Azul S.A. de C.V.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Enisey Krasnoyarsk": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "FC Khimki (-2025)": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "RFK Akhmat Grozny": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Asociația Futball Klub Csíkszereda Miercurea Ciuc": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Arsenal Tula": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Tokyo Verdy": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Fotbal Club Metaloglobus București SA": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "FC Baník Ostrava a.s.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "West Ham United Football Club": {
+  "379": {
     "Principal": "#7b1fa2",
     "Goleiro": "#212121"
   },
-  "Fortuna Düsseldorf": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "US Salernitana 1919": {
+  "380": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Yokohama Marinos": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Eindhovense Voetbalvereniging Philips Sport Vereniging": {
+  "383": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Fredrikstad Fotballklubb": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Adana Demirspor": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Fortuna Sittardia Combinatie": {
+  "385": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
   },
-  "Llaneros FC": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Mirasol Futebol Clube": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Football Club Anyang": {
-    "Principal": "#8e24aa",
-    "Goleiro": "#fdd835"
-  },
-  "1. Fußball- und Sportverein Mainz 05": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "RAAL La Louvière": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "FK Obolon Kyiv": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Stade brestois 29": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Club Atlético Talleres": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Royale Union Saint-Gilloise": {
+  "398": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Al-Orobah FC": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Rakuten Vissel Kobe": {
-    "Principal": "#8d6e63",
-    "Goleiro": "#fdd835"
-  },
-  "Erzurumspor FK": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Società Sportiva Lazio S.p.A.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Leeds United Association Football Club": {
+  "399": {
     "Principal": "#ffffff",
     "Goleiro": "#212121"
   },
-  "PAS Lamia 1964": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "1.FC Nuremberg": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "FC Girondins Bordeaux": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Klub Sportowy Lechia Gdańsk": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "New York City Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Club Atlético de San Luis": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Willem II Tilburg": {
+  "403": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Promotora del Club Pachuca S. A. de C. V.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "FC Tosno (-2018)": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Aston Villa Football Club": {
+  "405": {
     "Principal": "#670e36",
     "Goleiro": "#fdd835"
   },
-  "Club de Foot Montréal": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "U Craiova 1948 Club Sportiv SA": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "FC Crotone": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Fußballclub Red Bull Salzburg": {
+  "409": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Hamburger Sport Verein": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Udinese Calcio": {
+  "410": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "AC Carpi": {
-    "Principal": "#ffffff",
-    "Goleiro": "#fdd835"
-  },
-  "PFK Tambov (-2021)": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "FK Sochi": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Beerschot VA": {
-    "Principal": "#8e24aa",
-    "Goleiro": "#212121"
-  },
-  "Asociația Clubul Sportiv Campionii Fotbal Club Argeș": {
-    "Principal": "#8e24aa",
-    "Goleiro": "#fdd835"
-  },
-  "Amkar Perm": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Linzer Athletik-Sport-Klub": {
+  "413": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "Toulouse Football Club": {
+  "415": {
     "Principal": "#8e24aa",
     "Goleiro": "#fdd835"
   },
-  "Torino Calcio": {
+  "416": {
     "Principal": "#8d6e63",
     "Goleiro": "#212121"
   },
-  "Olympique Gymnaste Club Nice Côte d'Azur": {
+  "417": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Benevento Calcio": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Pisa Sporting Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Real Madrid Club de Fútbol": {
+  "418": {
     "Principal": "#ffffff",
     "Goleiro": "#212121"
   },
-  "GNK Dinamo Zagreb": {
+  "419": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Hannover 96": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Klub Sportowy Górnik Zabrze Sportowa Spółka Akcyjna": {
+  "428": {
     "Principal": "#ffffff",
     "Goleiro": "#fdd835"
   },
-  "Sporting Kansas City": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Portland Timbers": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "SC Farense": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Heart of Midlothian Football Club": {
-    "Principal": "#8d6e63",
-    "Goleiro": "#fdd835"
-  },
-  "Associazione Calcio Fiorentina": {
+  "430": {
     "Principal": "#8e24aa",
     "Goleiro": "#212121"
   },
-  "Hamarkameratene": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Chicago Fire Soccer Club": {
+  "432": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "FC Luzern": {
+  "434": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Hertha BSC": {
+  "441": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Bodrum FK": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Apollon Smyrnis": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Vejle Boldklub": {
+  "443": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "RZ Pellets Wolfsberger Athletiksport Club": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Turn- und Sportverein Egger Glas Hartberg": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "HNK Hajduk Split": {
+  "447": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Fudbalski Klub Vojvodina": {
+  "448": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Volyn Lutsk": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Trabzonspor Kulübü": {
+  "449": {
     "Principal": "#880e4f",
     "Goleiro": "#fdd835"
   },
-  "FK Dukla Praha a.s.": {
+  "450": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Berner Sport Club Young Boys": {
+  "452": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Fotbal Club Rapid 1923 SA": {
+  "455": {
     "Principal": "#7b1fa2",
     "Goleiro": "#fdd835"
   },
-  "HNK Vukovar 1991": {
+  "456": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Orlando City Soccer Club": {
-    "Principal": "#661197",
-    "Goleiro": "#fdd835"
-  },
-  "Palermo FC": {
+  "458": {
     "Principal": "#ec407a",
     "Goleiro": "#212121"
   },
-  "Football Club Internazionale Milano S.p.A.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Athlitiki Enosi Larisas": {
-    "Principal": "#7b1fa2",
-    "Goleiro": "#212121"
-  },
-  "Fudbalski Klub Novi Pazar": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "FK Radnički 1923 Kragujevac": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Saint Mirren Football Club": {
+  "465": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "Nijmegen Eendracht Combinatie": {
+  "467": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Sparta Rotterdam": {
+  "468": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Iraklis Thessaloniki": {
+  "472": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "475": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "496": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "UD Las Palmas": {
+  "498": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Koninklijke Sint-Truidense Voetbalvereniging": {
+  "499": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "SC Olhanense": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
+  "501": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
   },
-  "FC Ingolstadt 04": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "FK Kolos Kovalivka": {
-    "Principal": "#ffffff",
+  "504": {
+    "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "FC Rukh Lviv": {
-    "Principal": "#fdd835",
+  "506": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "511": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "512": {
+    "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Fútbol Club Juárez": {
+  "520": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
   },
-  "Ingulets Petrove": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Club León Fútbol Club": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "SC Oţelul Galaţi": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Malmö Fotbollförening": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Querétaro Fútbol Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "FK Nizhny Novgorod": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "KSC Lokeren (- 2020)": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Vitesse Arnhem": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Associazione Calcio Milan": {
+  "524": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Fotballklubben Bodø/Glimt": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Grasshopper Club Zürich": {
+  "527": {
     "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Al-Fayha FC": {
-    "Principal": "#fb8c00",
     "Goleiro": "#212121"
   },
-  "Damac Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
+  "533": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
   },
-  "Juventus Football Club": {
+  "537": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "Dundee Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Stoke City": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Atlanta United Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Football Club Cincinnati": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Los Angeles Football Club": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Cercle Brugge Koninklijke Sportvereniging": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Västerås Sportklubb FK": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "AOK Kerkyra": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "GS Ergotelis": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Gaziantepspor (- 2020)": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Football Club Lausanne-Sport": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Omladinski fudbalski klub Beograd": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Turn- und Sportgemeinschaft 1899 Hoffenheim Fußball-Spielbetriebs": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "SD Huesca": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "FK Polissya Zhytomyr": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "S. A. F. Botafogo": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "RWD Molenbeek": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Wolverhampton Wanderers Football Club": {
+  "543": {
     "Principal": "#fdb913",
     "Goleiro": "#212121"
   },
-  "Sepsi OSK Sf. Gheorghe": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Ionikos Nikeas": {
+  "553": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "1. FC Slovácko": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "FC Trinity Zlin": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "FK Mladá Boleslav, a.s.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Newcastle United Jets Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "TOV FK Metalist 1925 Kharkiv": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Niki Volou": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Minnesota United FC": {
-    "Principal": "#757575",
-    "Goleiro": "#fdd835"
-  },
-  "Aalesunds Fotballklubb": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#212121"
-  },
-  "Beerschot AC": {
+  "566": {
     "Principal": "#8e24aa",
     "Goleiro": "#fdd835"
   },
-  "Club de Futbol Puebla de La Franja": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Klub Sportowy Cracovia Spółka Akcyjna": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Randers Fodbold Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Fodbold Club Fredericia": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Royal Sporting Club Anderlecht": {
-    "Principal": "#8e24aa",
-    "Goleiro": "#212121"
-  },
-  "Asociația Fotbal Club Hermannstadt": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Sønderjyske Fodbold": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Hobro IK": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Paris Saint-Germain Football Club": {
+  "583": {
     "Principal": "#004170",
     "Goleiro": "#fdd835"
   },
-  "São Paulo Futebol Clube": {
+  "585": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Antalyaspor": {
+  "589": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Kyoto Purple Sanga": {
+  "593": {
     "Principal": "#8e24aa",
     "Goleiro": "#212121"
   },
-  "Železničar Pančevo": {
-    "Principal": "#ffffff",
-    "Goleiro": "#fdd835"
-  },
-  "SC Bastia": {
+  "595": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Gamba Osaka": {
+  "596": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "NK Varazdin": {
+  "599": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Adanaspor": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#fdd835"
-  },
-  "Sport-Club Freiburg": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "KV Kortrijk": {
+  "601": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Cardiff City": {
+  "603": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Aris Thessalonikis": {
+  "605": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "SC Dnipro-1": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Venezia FC": {
+  "607": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "Al-Khaleej Club (Saihat)": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Cruzeiro Esporte Clube": {
+  "609": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Volou Neos Podosferikos Syllogos": {
+  "610": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Servette Football Club 1890 SA": {
-    "Principal": "#8d6e63",
-    "Goleiro": "#fdd835"
-  },
-  "AFC Ajax Amsterdam": {
+  "614": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Morski Związkowy Klub Sportowy Arka Gdynia Spółka Akcyjna": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Miejski Klub Sportowy Korona Kielce Spółka Akcyjna": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Gliwicki Klub Sportowy Piast Spółka Akcyjna": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Clube de Regatas do Flamengo": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "AS Saint-Étienne": {
+  "618": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
   },
-  "FC Minaj": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Società Sportiva Calcio Napoli": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "SK Slavia Praha, a.s.": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Athletic Club Bilbao": {
+  "621": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Red Bull New York": {
+  "623": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "New England Revolution": {
+  "626": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "LNZ Cherkasy": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Chelsea Football Club": {
+  "631": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Vancouver Whitecaps FC": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Nashville SC": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Sandefjord Fotball": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Middlesbrough FC": {
+  "641": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Metalist Kharkiv (- 2016)": {
+  "642": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Panetolikos Agrinio": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "De Graafschap Doetinchem": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Asociația Sportivă Fotbal Club Universitatea Cluj": {
+  "653": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "GKS GieKSa Katowice Spółka Akcyjna": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Atlético Bucaramanga": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Foundation Coorperation Hana Financial Group Inc. Football Club": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "SpVgg Greuther Fürth": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Football Club Seoul": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Jeonbuk Hyundai Motors": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Daegu FC": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Gimcheon Sangmu Football Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Omilos Filathlon Irakliou FC": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Unione Sportiva Sassuolo Calcio": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "FC Shakhtar Donetsk": {
+  "660": {
     "Principal": "#fb8c00",
     "Goleiro": "#212121"
   },
-  "Sport Club Internacional": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Fudbalski klub Čukarički Beograd": {
-    "Principal": "#ffffff",
-    "Goleiro": "#212121"
-  },
-  "Fudbalski Klub Mladost Lučani": {
+  "667": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Tokyo Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Hitachi Kashiwa Reysol": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Real Salt Lake": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Fatih Karagümrük Sportif Faaliyetler San. Tic. A.Ş.": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Racing Club de Strasbourg Alsace": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "A.G.S Asteras Tripolis": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Fudbalski Klub Partizan Beograd": {
+  "669": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "Club Deportivo Guadalajara S. A. de C. V.": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "JEF United": {
+  "672": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Ipswich Town": {
+  "677": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Aarhus Gymnastik Forening": {
+  "678": {
     "Principal": "#ffffff",
     "Goleiro": "#212121"
   },
-  "Clube Atlético Paranaense": {
+  "679": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Real Sociedad de Fútbol S.A.D.": {
+  "681": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Olympiakos Syndesmos Filathlon Peiraios": {
+  "683": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "CF Os Belenenses": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Molde Fotballklubb": {
+  "687": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "İstanbul Başakşehir Futbol Kulübü": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Kayseri Erciyesspor": {
+  "697": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "FC Vizela": {
+  "703": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "714": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Club Internacional de Fútbol Miami": {
-    "Principal": "#ec407a",
-    "Goleiro": "#fdd835"
-  },
-  "Central Coast Mariners Football Club": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "FC Slovan Liberec": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Once Caldas": {
-    "Principal": "#ffffff",
-    "Goleiro": "#212121"
-  },
-  "Chornomorets Odesa": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "FK Mariupol": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Metalurg Zaporizhya (-2016)": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Goverla Uzhgorod (- 2016)": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Melbourne Victory FC": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Göteborgs Atlet- och Idrottssällskap": {
+  "715": {
     "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "720": {
+    "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Nottingham Forest Football Club": {
+  "723": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Club Tigres UANL Sinergia Deportiva S.A. de C.V.": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Club Atlético Unión": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Western United FC": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Macarthur South West Sydney (A-League)": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Envigado FC": {
+  "724": {
     "Principal": "#fb8c00",
     "Goleiro": "#fdd835"
   },
-  "Reial Club Deportiu Espanyol de Barcelona S.A.D.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Bohemians Praha 1905, a.s.": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Radomiak S.A.": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Eyüp Spor Kulübü": {
-    "Principal": "Lavanda",
-    "Goleiro": "#fdd835"
-  },
-  "Al-Okhdood Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Clube Desportivo de Tondela": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Panthrakikos Komotini": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Akron Togliatti": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Futebol Clube do Porto": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Almere City FC": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Austin FC": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Football Club Volendam": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#fdd835"
-  },
-  "Portimonense SC": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Le Havre Athletic Club": {
+  "738": {
     "Principal": "#0d47a1",
     "Goleiro": "#fdd835"
   },
-  "FC Empoli": {
+  "749": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "FC Sochaux-Montbéliard": {
+  "750": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Dinamo Makhachkala": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Fudbalski Klub Radnički Niš": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Slask Wroclaw": {
+  "759": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
   },
-  "Vålerengens Idrettsforening": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Newcastle United Football Club": {
+  "762": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "Club Universidad Nacional A. C.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Al-Ettifaq Football Club": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Coritiba Foot Ball Club": {
+  "776": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
   },
-  "Fotbal Club CFR 1907 Cluj SA": {
-    "Principal": "#880e4f",
-    "Goleiro": "#212121"
-  },
-  "Hatayspor": {
-    "Principal": "#880e4f",
-    "Goleiro": "#fdd835"
-  },
-  "Brisbane Roar FC": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#212121"
-  },
-  "Charlotte Football Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Fudbalski klub Napredak Kruševac": {
+  "788": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Verein für Bewegungsspiele Stuttgart 1893": {
-    "Principal": "#ffffff",
-    "Goleiro": "#fdd835"
-  },
-  "IK Sirius": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Excelsior Rotterdam": {
+  "798": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "VfL Bochum": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Atalanta Bergamasca Calcio S.p.a.": {
+  "800": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "Idrottsföreningen Kamraterna Göteborg": {
+  "801": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Al-Ittihad Football Club": {
+  "813": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Futebol Clube de Arouca": {
+  "814": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Sydney Football Club": {
-    "Principal": "#1e88e5",
+  "820": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "825": {
+    "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Columbus Crew": {
-    "Principal": "#fdd835",
+  "826": {
+    "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "FK Teplice, a.s.": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "SK Poltava": {
-    "Principal": "#1e88e5",
+  "828": {
+    "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Atlético Nacional": {
+  "830": {
     "Principal": "#43a047",
     "Goleiro": "#212121"
   },
-  "Verein für Leibesübungen Wolfsburg": {
+  "833": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
   },
-  "Gençlerbirliği Spor Kulübü": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Eskisehirspor": {
+  "855": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Racing Club de Lens": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "St. Louis City Soccer Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Mazatlán Futbol Club": {
-    "Principal": "#8e24aa",
-    "Goleiro": "#212121"
-  },
-  "Urawa Red Diamonds": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Club Atlético Banfield": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "Denizlispor": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Albirex Niigata": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#212121"
-  },
-  "Metalist Kharkiv": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Epicentr Dunaivtsi": {
-    "Principal": "#ffffff",
-    "Goleiro": "#212121"
-  },
-  "Wellington Phoenix Football Club": {
+  "862": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Shonan Bellmare": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "FK Karpaty Lviv": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "EA Guingamp": {
+  "865": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Club de Futbol Rojinegros S.A. de C.V.": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Sportverein Werder Bremen von 1899": {
-    "Principal": "#43a047",
-    "Goleiro": "#fdd835"
-  },
-  "Chievo Verona": {
+  "868": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Livyi Bereg Kyiv": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Fodbold Club Midtjylland": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "MKE Ankaragücü": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Sport Club do Recife": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Crystal Palace Football Club": {
+  "873": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Adelaide United Football Club": {
+  "875": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "FK Kudrivka-1": {
+  "897": {
     "Principal": "#1e88e5",
     "Goleiro": "#212121"
   },
-  "Red Bull Bragantino": {
-    "Principal": "#ffffff",
-    "Goleiro": "#fdd835"
-  },
-  "Widzew Łódź Spółka Akcyjna": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "FC Dallas": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Asociația Fotbal Club Botoșani": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Fudbalski Klub Javor Matis Ivanjica": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Zirka Kropyvnytskyi": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "1. Fußballclub Union Berlin": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Deportivo de La Coruña": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Frosinone Calcio": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Arsenal Kyiv": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "FC Verbroedering Denderhoutem Denderleeuw Eendracht Hekelgem": {
-    "Principal": "#212121",
-    "Goleiro": "#43a047"
-  },
-  "Hibernian Football Club": {
+  "903": {
     "Principal": "#43a047",
     "Goleiro": "#212121"
   },
-  "Al-Hazem Sport Club": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Al-Kholood Club": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Houston Dynamo": {
-    "Principal": "#fb8c00",
-    "Goleiro": "#fdd835"
-  },
-  "Istanbulspor": {
+  "924": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Club Atlético Platense": {
+  "928": {
     "Principal": "#795548",
     "Goleiro": "#fdd835"
   },
-  "Fulham Football Club": {
+  "931": {
     "Principal": "#ffffff",
     "Goleiro": "#212121"
   },
-  "Футбольный клуб \"Локомотив\" Москва": {
+  "932": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "FC Thun": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Real Club Celta de Vigo S. A. D.": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "FC Viktoria Plzeň, a.s.": {
+  "938": {
     "Principal": "#d41717",
     "Goleiro": "#212121"
   },
-  "Yokohama FC": {
+  "940": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Fotbal Club Petrolul Ploiești": {
+  "941": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "943": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "952": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "964": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "968": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Asociația Fotbal Club UTA Arad": {
-    "Principal": "#d41717",
-    "Goleiro": "#fdd835"
-  },
-  "Avispa Fukuoka": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#212121"
-  },
-  "Kawasaki Frontale": {
+  "969": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Seattle Sounders FC": {
-    "Principal": "#43a047",
-    "Goleiro": "#212121"
-  },
-  "AO FK Zenit Sankt-Peterburg": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "RKS Raków Częstochowa SA": {
-    "Principal": "#d41717",
-    "Goleiro": "#212121"
-  },
-  "Koninklijke Voetbal Club Westerlo": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Montpellier HSC": {
-    "Principal": "#1e88e5",
-    "Goleiro": "#fdd835"
-  },
-  "Perth Glory Football Club": {
+  "970": {
     "Principal": "#8e24aa",
     "Goleiro": "#212121"
   },
-  "CF União Madeira (-2021)": {
+  "976": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Club de Regatas Vasco da Gama": {
+  "978": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "Moreirense Futebol Clube": {
+  "979": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
   },
-  "Deportivo Pereira": {
-    "Principal": "#fdd835",
-    "Goleiro": "#212121"
-  },
-  "Clube Desportivo Nacional": {
+  "982": {
     "Principal": "#212121",
     "Goleiro": "#43a047"
   },
-  "West Bromwich Albion": {
+  "984": {
     "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Al-Shabab Club": {
+  "985": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "987": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "989": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "993": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "995": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "999": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "1003": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#ffffff"
+  },
+  "1005": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#ffffff"
+  },
+  "1010": {
+    "Principal": "#fdd835",
+    "Goleiro": "#43a047"
+  },
+  "1011": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "1022": {
+    "Principal": "#ec407a",
+    "Goleiro": "#212121"
+  },
+  "1023": {
+    "Principal": "#024a1b",
+    "Goleiro": "#757575"
+  },
+  "1025": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "1029": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#43a047"
+  },
+  "1030": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "1031": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "1032": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1038": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#43a047"
+  },
+  "1039": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1041": {
     "Principal": "#ffffff",
     "Goleiro": "#212121"
   },
-  "Manchester United Football Club": {
-    "Principal": "#d41717",
+  "1044": {
+    "Principal": "#1e88e5",
     "Goleiro": "#fdd835"
   },
-  "Motherwell Football Club": {
+  "1047": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "1049": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "1050": {
     "Principal": "#fdd835",
     "Goleiro": "#212121"
   },
-  "Association Football Club Bournemouth": {
+  "1053": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1057": {
+    "Principal": "#d41717",
+    "Goleiro": "#1e88e5"
+  },
+  "1059": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "1061": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "1062": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "1063": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "1066": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1071": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "1075": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1082": {
+    "Principal": "#0d47a1",
+    "Goleiro": "#fdd835"
+  },
+  "1083": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "1084": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#43a047"
+  },
+  "1085": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "1090": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1091": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "1092": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1095": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1096": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1100": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1101": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "1106": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#43a047"
+  },
+  "1108": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "1109": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "1110": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1114": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1118": {
+    "Principal": "#d41717",
+    "Goleiro": "#1e88e5"
+  },
+  "1123": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "1124": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1132": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#43a047"
+  },
+  "1146": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1147": {
     "Principal": "#d41717",
     "Goleiro": "#fdd835"
   },
-  "Córdoba CF": {
+  "1148": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1158": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "1159": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "1160": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1162": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1177": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1184": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1186": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "1191": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1210": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1234": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1236": {
+    "Principal": "#d41717",
+    "Goleiro": "#1e88e5"
+  },
+  "1237": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1241": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "1244": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1245": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "1247": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#fdd835"
+  },
+  "1268": {
     "Principal": "#43a047",
     "Goleiro": "#212121"
   },
-  "Football Club de Nantes": {
+  "1269": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1283": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1286": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "1293": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1301": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
   },
-  "Deportivo Cali": {
+  "1304": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "1321": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "1322": {
     "Principal": "#43a047",
     "Goleiro": "#212121"
   },
-  "NK Istra 1961": {
+  "1387": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "1390": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "1403": {
     "Principal": "#43a047",
     "Goleiro": "#fdd835"
+  },
+  "1411": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "1416": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "1418": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1420": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "1421": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "1423": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1426": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "1429": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "1434": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "1435": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1436": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "1444": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "1455": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "1465": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "1467": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "1496": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1506": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1519": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "1531": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "1533": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "1627": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "1775": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "1804": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1829": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1894": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "1897": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "2029": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "2036": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "2063": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "2079": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "2118": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2125": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "2157": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "2227": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "2239": {
+    "Principal": "#757575",
+    "Goleiro": "#212121"
+  },
+  "2241": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "2282": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2288": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "2292": {
+    "Principal": "#880e4f",
+    "Goleiro": "#212121"
+  },
+  "2293": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "2300": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "2311": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2323": {
+    "Principal": "#661197",
+    "Goleiro": "#212121"
+  },
+  "2350": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2352": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "2362": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "2375": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "2381": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "2402": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "2407": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2410": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "2414": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "2417": {
+    "Principal": "#4fc3f7",
+    "Goleiro": "#fdd835"
+  },
+  "2420": {
+    "Principal": "#ffffff",
+    "Goleiro": "#43a047"
+  },
+  "2423": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "2424": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "2425": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "2431": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "2439": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "2440": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "2441": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "2446": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "2448": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "2451": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2457": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "2462": {
+    "Principal": "#8d6e63",
+    "Goleiro": "#43a047"
+  },
+  "2477": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "2497": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2503": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "2521": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "2553": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2578": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "2671": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2672": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "2687": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "2696": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "2697": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#fdd835"
+  },
+  "2698": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "2700": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "2703": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "2715": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "2719": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "2722": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2727": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "2740": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "2741": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "2759": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2760": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "2761": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "2778": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "2783": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "2790": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "2817": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2832": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "2844": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2861": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "2919": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "2921": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "2944": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2969": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "2990": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "2995": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "2996": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "2999": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "3008": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "3057": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "3060": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "3062": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "3137": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "3205": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "3209": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "3216": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "3268": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "3302": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "3325": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "3327": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "3329": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "3336": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "3349": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "3368": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "3385": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "3426": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "3508": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "3522": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "3524": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "3527": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "3535": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "3551": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "3558": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "3592": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "3609": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "3622": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "3631": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "3641": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "3654": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "3690": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "3691": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "3709": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "3711": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "3714": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "3719": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "3725": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "3729": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "3734": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "3828": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "3837": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "3840": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "3876": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "3901": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "3911": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "3938": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "3948": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "3958": {
+    "Principal": "#8d6e63",
+    "Goleiro": "#fdd835"
+  },
+  "3999": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "4000": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "4035": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "4078": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "4083": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "4102": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "4128": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "4171": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "4172": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "4284": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "4291": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "4294": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "4309": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "4441": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "4467": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "4482": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "4603": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#212121"
+  },
+  "4633": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "4645": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "4750": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "4795": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "4941": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "4959": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "4961": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "5202": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "5219": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "5220": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "5358": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "5544": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "5545": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "5546": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "5551": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "5572": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "5619": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "5662": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "5689": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "5724": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "5776": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "5817": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "5818": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "6070": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "6107": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "6110": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "6112": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "6195": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "6321": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "6399": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "6414": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "6418": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "6429": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "6456": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "6495": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "6499": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "6500": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "6502": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "6504": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "6505": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "6574": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "6600": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "6621": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "6622": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "6631": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "6632": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "6643": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "6646": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "6676": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "6711": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "6890": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "6894": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "6912": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "6954": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "6984": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "6992": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "6993": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "6994": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "6996": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "7006": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "7009": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "7055": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "7097": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "7136": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "7154": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "7160": {
+    "Principal": "Lavanda",
+    "Goleiro": "#fdd835"
+  },
+  "7179": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "7185": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "7378": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "7567": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "7633": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "7732": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "7769": {
+    "Principal": "#880e4f",
+    "Goleiro": "#212121"
+  },
+  "7775": {
+    "Principal": "#880e4f",
+    "Goleiro": "#fdd835"
+  },
+  "7831": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "7945": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "8023": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "8024": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "8054": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "8172": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "8344": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "8445": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "8457": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "8590": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "8718": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "8793": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "8816": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "8818": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "8819": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "8838": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "8970": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "9007": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "9010": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "9131": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "9168": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "9465": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "9597": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "9598": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "9636": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "9644": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "9811": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "9840": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "9961": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "10004": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#ffffff"
+  },
+  "10010": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#ffffff"
+  },
+  "10093": {
+    "Principal": "#d41717",
+    "Goleiro": "#43a047"
+  },
+  "10217": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "10484": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "10492": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "10503": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#fdd835"
+  },
+  "10511": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "10690": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "10870": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "10997": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "11126": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "11127": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "11141": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "11194": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "11282": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "11380": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "11648": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "11688": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "11831": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "11854": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "12179": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "12301": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "12321": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "12438": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "12454": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "12574": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "13353": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "13726": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "14171": {
+    "Principal": "#ec407a",
+    "Goleiro": "#212121"
+  },
+  "14554": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "14589": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "14602": {
+    "Principal": "#4fc3f7",
+    "Goleiro": "#212121"
+  },
+  "14649": {
+    "Principal": "#424242",
+    "Goleiro": "#fdd835"
+  },
+  "14680": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "14687": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "15276": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "15906": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "16239": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "16245": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "16247": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "16704": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "16795": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "17209": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "17425": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "17776": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "18105": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "18303": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "18487": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "18544": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "19657": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "19684": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "19771": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "19775": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "19789": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "20100": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "20590": {
+    "Principal": "#ffb300",
+    "Goleiro": "#212121"
+  },
+  "20698": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "20887": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "21101": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "21459": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#fdd835"
+  },
+  "21957": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "21975": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "22110": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "22171": {
+    "Principal": "#7b1fa2",
+    "Goleiro": "#fdd835"
+  },
+  "22381": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "22431": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "22902": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "23184": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "23568": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "23581": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "23611": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "23826": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "24245": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "24575": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "25184": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "25467": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "25580": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "26069": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "26459": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "27221": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "28095": {
+    "Principal": "#661197",
+    "Goleiro": "#fdd835"
+  },
+  "28643": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "28760": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#fdd835"
+  },
+  "28844": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "28893": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "28956": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "29228": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "29700": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "29831": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "30120": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "30925": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "31008": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "31284": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "31622": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "32041": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "32113": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "32328": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "33328": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "33966": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "34911": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "35759": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "36100": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "36922": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "37255": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "37624": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "38628": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "38898": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#fdd835"
+  },
+  "39097": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "39536": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "39722": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "40058": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "40188": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "40426": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "40812": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "41201": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "41231": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "41274": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#212121"
+  },
+  "41278": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#fdd835"
+  },
+  "44006": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "45604": {
+    "Principal": "#661197",
+    "Goleiro": "#fdd835"
+  },
+  "48332": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "48726": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "49283": {
+    "Principal": "#43a047",
+    "Goleiro": "#fdd835"
+  },
+  "49364": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "49702": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "50531": {
+    "Principal": "#fb8c00",
+    "Goleiro": "#212121"
+  },
+  "50532": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "51663": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "51772": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "51828": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "53646": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "54189": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "54585": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "55686": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "56089": {
+    "Principal": "#757575",
+    "Goleiro": "#fdd835"
+  },
+  "58049": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "59358": {
+    "Principal": "#ffffff",
+    "Goleiro": "#fdd835"
+  },
+  "60551": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "60949": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "61825": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "63007": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "63966": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "68608": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "69261": {
+    "Principal": "#ec407a",
+    "Goleiro": "#fdd835"
+  },
+  "71084": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "71085": {
+    "Principal": "#212121",
+    "Goleiro": "#43a047"
+  },
+  "71665": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "71985": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "72309": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "75231": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "78435": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "81401": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "82686": {
+    "Principal": "#d41717",
+    "Goleiro": "#fdd835"
+  },
+  "82696": {
+    "Principal": "#8e24aa",
+    "Goleiro": "#212121"
+  },
+  "83678": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "84122": {
+    "Principal": "#ffffff",
+    "Goleiro": "#212121"
+  },
+  "85465": {
+    "Principal": "#43a047",
+    "Goleiro": "#212121"
+  },
+  "86209": {
+    "Principal": "#fdd835",
+    "Goleiro": "#212121"
+  },
+  "87883": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "91427": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
+  },
+  "110302": {
+    "Principal": "#d41717",
+    "Goleiro": "#212121"
+  },
+  "114977": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#fdd835"
+  },
+  "118373": {
+    "Principal": "#1e88e5",
+    "Goleiro": "#212121"
   }
 }
